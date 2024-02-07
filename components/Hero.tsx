@@ -2,6 +2,7 @@ import { useAnimate } from "framer-motion";
 import { useAmp } from "next/amp";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {};
 
@@ -19,6 +20,7 @@ function Hero({}: Props) {
 
   return (
   <div>
+    <BackgroundCircles />
 <h1>
   <span>{text}</span>
   <Cursor cursorColor="purple"/>
