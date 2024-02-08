@@ -9,9 +9,10 @@ type Props = {};
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi, the name's Nikhil",
-      "Guy who loves lifting heavy things",
-      "but also loves to code!",
+      "Hi boys 2.0",
+      "This is a test skeleton",
+      "it's coming along",
+      "ok love you bye x"
     ],
 
     loop: true,
@@ -19,7 +20,7 @@ function Hero({}: Props) {
   });
 
   return (
-  <div>
+  <div className="h-screen flex flex-col space-y-8 items-center justify-center">
     <BackgroundCircles />
 <h1>
   <span>{text}</span>
