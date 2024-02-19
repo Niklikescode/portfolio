@@ -13,7 +13,8 @@ function ContactMe({}: Props) {
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           I'd love to hear from you. <br />
-          <span className="underline decoration-orange-400/50">Lets Talk!</span></h4>
+          <span className="underline decoration-orange-400/50">Lets Talk!</span>
+        </h4>
 
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
@@ -31,6 +32,17 @@ function ContactMe({}: Props) {
             <p>Berkshire, United Kingdom</p>
           </div>
         </div>
+
+<form className="flex flex-col space-y-2 w-fit mx-auto">
+  <div className="flex space-x-2">
+    <input className="contactInput" type="text" placeholder="Name" /> <input className="contactInput" type="email" placeholder="Email"/>
+  </div>
+<input className="contactInput" type="text" placeholder="Subject"/>
+<textarea className="contactInput" placeholder="Message"/>
+<button type="submit" className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
+
+</form>
+
       </div>
     </div>
   );
