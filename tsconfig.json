@@ -15,8 +15,8 @@
     "paths": {
       "@/*": ["./*"]
     },
-    target: "ES2017"
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "sanity/schema.js"],
   "exclude": ["node_modules"]
 }
