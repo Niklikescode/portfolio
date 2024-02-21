@@ -1,5 +1,5 @@
 /**
- * This configuration is used to for the Sanity Studio that’s mounted on the `\pages\studio\[[...index]].tsx` route
+ * This configuration is used to for the Sanity Studio that’s mounted on the `\pages\studio\[[...index]].jsx` route
  */
 
 import {visionTool} from '@sanity/vision'

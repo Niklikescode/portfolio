@@ -1,9 +1,7 @@
-import { defineField, defineType } from "sanity";
-
-export default defineType({
-  name: "pageInfo",
-  title: "PageInfo",
-  type: "document",
+export const post = {
+  name: 'pageInfo',
+  title: 'PageInfo',
+  type: 'document',
   fields: [
     defineField({
       name: "name",
@@ -24,7 +22,7 @@ export default defineType({
       },
     }),
     defineField({
-      name: "nbackgroundInformation",
+      name: "backgroundInformation",
       title: "BackgroundInformation",
       type: "string",
     }),
@@ -58,4 +56,6 @@ export default defineType({
       of: [{ type: "reference", to: { type: "social" } }],
     }),
   ],
-});
+
+
+}
