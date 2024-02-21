@@ -10,7 +10,7 @@ export const post = {
     }),
 
     defineField({
-      name: "hcompanyImage",
+      name: "companyImage",
       title: "CompanyImage",
       type: "image",
       options: {
