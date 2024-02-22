@@ -38,14 +38,12 @@ function About({}: Props) {
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
-          background
+          background about me!
         </h4>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae
-          maxime reprehenderit repellendus deleniti itaque. Dignissimos
-          reiciendis dolores praesentium nisi, voluptate sint deleniti porro,
-          corporis repudiandae ipsum ullam quod aliquid.
+          Firstly, thanks for stopping by! 
+          fill this space up
         </p>
       </div>
     </motion.div>
