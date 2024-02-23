@@ -15,20 +15,20 @@ function Projects({}: Props) {
       name: " Bubble",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-      image : "https://cdn.iconscout.com/icon/premium/png-256-thumb/project-management-536789.png",
+      image: "bubbleproject2.png",
     },
     { 
-      name: " Project 2",
+      name: " Bottled Courage ",
       description: "Another amazing project...",
-      image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/project-management-536789.png",
+      image: "bottledcourage.png",
     },
     { 
-      name: " Project 2",
+      name: " Portfolio Website",
       description: "uifiufhrwfuwh",
       image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/project-management-536789.png",
     },
     { 
-      name: " Project 2",
+      name: " Fitness App ",
       description: "Another amazing project...",
       image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/project-management-536789.png",
     },
