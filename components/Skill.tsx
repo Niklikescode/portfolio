@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 
 type Props = {
-  
+  image: string;
   directionLeft?: boolean;
 };
 
-function Skill({ directionLeft }: Props) {
+function Skill({ image, directionLeft }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
@@ -20,7 +20,7 @@ function Skill({ directionLeft }: Props) {
             transition={{ duration: 1.5 }}
             animate={{ rotate: 360 }}
     
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+        src={image}
         className="rounded-full border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale    "
       />
 
