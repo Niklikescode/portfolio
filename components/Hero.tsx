@@ -12,14 +12,14 @@ type Props = {};
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi boys 2.0",
-      "getting there...",
-      "it's starting to look pretty sick",
-      "ok love you bye x",
+      "Hey, I'm Nikhil",
+      "...but you can call me Nik",
+      "I'm on a mission to tranform my life",
+      "So feel free to stick around and see where this goes!",
     ],
 
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 1500,
   });
 
   return (

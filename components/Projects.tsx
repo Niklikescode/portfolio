@@ -30,7 +30,7 @@ function Projects({}: Props) {
     { 
       name: " Fitness App ",
       description: "Another amazing project...",
-      image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/project-management-536789.png",
+      image: "comingsoon.png",
     },
   ];
 
