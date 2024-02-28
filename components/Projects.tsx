@@ -15,7 +15,7 @@ function Projects({}: Props) {
       name: " Bubble",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-      image: "bubbleproject2.png",
+      image: "bubblecanva.png",
     },
     { 
       name: " Bottled Courage ",
@@ -25,7 +25,7 @@ function Projects({}: Props) {
     { 
       name: " Portfolio Website",
       description: "uifiufhrwfuwh",
-      image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/project-management-536789.png",
+      image: "personalwebsite.png",
     },
     { 
       name: " Fitness App ",
