@@ -24,7 +24,7 @@ function Projects({}: Props) {
     },
     { 
       name: " Portfolio Website",
-      description: "The website you're on right now! I built this website using Next.js, Tailwind CSS and Framer Motion. I wanted to create a website that was both visually appealing and interactive. I also wanted to showcase my skills and projects in a unique way. I'm really happy with the results so far but there are many areas that need tweaking. I'm excited to see how this website evolves over time.",
+      description: "The website you're on right now! I built this website using Next.js, Tailwind CSS and Framer Motion, as well as as some design ideas from Canva. I wanted to create a website that was both visually appealing and interactive. I also wanted to showcase my skills and projects in a unique way. I've learned a great deal from this project by utilising the knowledge knowledge gained from the School of Code bootcamp as well as using a 'just in time' approach to learing. I'm really happy with the results so far but there are many areas that require tweaking. I'm excited to see how this website evolves over time.",
       image: "personalwebsite.png",
     },
     { 
