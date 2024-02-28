@@ -31,15 +31,16 @@ function About({}: Props) {
         }}
         viewport={{ once: true }}
         src="diving.jpg"
-        className="mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 xl:w-[500px] xl:h-[600px]"
+        className="mb-0 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 xl:w-[500px] xl:h-[600px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
-          background about me...
+          background about me...<span></span>
         </h4>
+        <p className="">(ok maybe not little)</p>
         <div className="overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-20">
           <p >
             Firstly, thanks for stopping by! I guess a good place to begin would
