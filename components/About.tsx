@@ -40,28 +40,67 @@ function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background about me...
         </h4>
-
-        <p className="overflow-y-scroll scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
-          Firstly, thanks for stopping by! I guess a good place to begin would be by explaining why I'm here. Well... my professional career up to now has predominently been in technology and within a sales, managerial and client-facing capacity, where I've had the pleasure of working with some amazing companies across a diverse collection of industies. I've been lucky enough to work and learn from some of the best in the business, and I've been able to take away some invaluable experiences and knowledge from each of these roles. 
-          <br />
-          <br />
-          I've always had a passion for technology from a very young age, which stems from a fascination of the way things work. As a kid I would often spend my time building model planes, painting, clay modelling, cooking or baking (along with all the stupid stuff kids get up to). Ultimately, whatever it was that I was doing, it fundamentaly involved <em>making</em>  something. As such I've always been drawn to the idea of creating something from nothing, and I've always been interested by the idea of building something that can be used by others. 
-          <br />
-          <br />
-          Through academia, computer science did interest me a lot, however I didn't quite have the prerequisites to go down that path, and so I ended up studying Business and Management at University, which has served me pretty well up to now. Fast forward to present day and bootcamps are now a thing!, and I was extremely fortunate enough to had been selected from over 3000 applicants to The School of Code alongside 89 other successful candidates. This was a 16-week <em>ridiculously</em> intensive yet life-changing and rewarding bootcamp in Full-Stack Software Development, where I was able to learn and develop my skills and work on some amazing projects with a very talented and diverse mix of people.
-          <br />
-          <br />
-          Since we have now been released into the world having graduated and now armed with a whole new skillset, the aim is to build some cool (and hopefully lucrative) stuff whilst also growing my skills in the right company with the right people. I'm also working on a few personal projects which I'm hoping to share with you soon. 
-
-          <br />
-          <br />
-          Outside of all this, you may find me travelling the world, cooking, baking, weightlifting, settling in to a good book or a good movie, playing basketball or tennis, and delving in to all things old-school Hiphop - especially live. most of all... I love a social, and I'll likely talk your ear off (incase you haven't already noticed.)
-          <br />
-          <br />
-          This is probably a good place to wrap things up as I can go on forever, but if you do want to chat, feel free to drop me a message or give me a shout through the contact space below!
-          With that, I'm excited to see where this journey takes me as I navigate these tricky waters, and I'm looking forward to sharing it with you! 🚀
-
-        </p>
+        <div className="overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-20">
+          <p >
+            Firstly, thanks for stopping by! I guess a good place to begin would
+            be by explaining why I'm here. Well... my professional career up to
+            now has predominently been in technology and within a sales,
+            managerial and client-facing capacity, where I've had the pleasure
+            of working with some amazing companies across a diverse collection
+            of industies. I've been lucky enough to work and learn from some of
+            the best in the business, and I've been able to take away some
+            invaluable experiences and knowledge from each of these roles.
+            <br />
+            <br />
+            I've always had a passion for technology from a very young age,
+            which stems from a fascination of the way things work. As a kid I
+            would often spend my time building model planes, painting, clay
+            modelling, cooking or baking (along with all the stupid stuff kids
+            get up to). Ultimately, whatever it was that I was doing, it
+            fundamentaly involved <em>making</em> something. As such I've always
+            been drawn to the idea of creating something from nothing, and I've
+            always been interested by the idea of building something that can be
+            used by others.
+            <br />
+            <br />
+            Through academia, computer science did interest me a lot, however I
+            didn't quite have the prerequisites to go down that path, and so I
+            ended up studying Business and Management at University, which has
+            served me pretty well up to now. Fast forward to present day and
+            bootcamps are now a thing!, and I was extremely fortunate enough to
+            had been selected from over 3000 applicants to The School of Code
+            alongside 89 other successful candidates. This was a 16-week{" "}
+            <em>ridiculously</em> intensive yet life-changing and rewarding
+            bootcamp in Full-Stack Software Development, where I was able to
+            learn and develop my skills and work on some amazing projects with a
+            very talented and diverse mix of people.
+            <br />
+            <br />
+            Since we have now been released into the world having graduated and
+            now armed with a whole new skillset, the aim is to build some cool
+            (and hopefully lucrative) stuff whilst also growing my skills in the
+            right company with the right people. I'm also working on a few
+            personal projects which I'm hoping to share with you soon.
+            <br />
+            <br />
+            Outside of all this, you may find me travelling the world, cooking,
+            baking, weightlifting, settling in to a good book or a good movie,
+            playing basketball or tennis, and delving in to all things
+            old-school Hiphop - especially live. Most of all... I love a social,
+            and I'll likely talk your ear off (incase you haven't already
+            noticed.)
+            <br />
+            <br />
+            This is probably a good place to wrap things up as I can go on
+            forever, but if you do want to chat, feel free to drop me a message
+            or give me a shout through the contact space below!
+            <br />
+            <br />
+            With that, I'm excited to see where this journey takes me as I
+            navigate these tricky waters, and I'm looking forward to sharing it
+            with you! 🚀
+          </p>
+        </div>
       </div>
     </motion.div>
   );
