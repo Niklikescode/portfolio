@@ -12,24 +12,24 @@ type Props = {};
 function Projects({}: Props) {
   const projects: Project[] = [
     {
-      name: " Bubble",
+      name: " Bubble (SoC)",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
+        "As part of a team of 5 and 4 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format.",
       image: "bubblecanva.png",
     },
     { 
-      name: " Bottled Courage ",
-      description: "Another amazing project...",
+      name: " Bottled Courage (SoC) ",
+      description: "As part of a team of 6 and a week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the c of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
       image: "bottledcourage.png",
     },
     { 
       name: " Portfolio Website",
-      description: "uifiufhrwfuwh",
+      description: "The website you're on right now! I built this website using Next.js, Tailwind CSS and Framer Motion. I wanted to create a website that was both visually appealing and interactive. I also wanted to showcase my skills and projects in a unique way. I'm really happy with the results so far but there are many areas that need tweaking. I'm excited to see how this website evolves over time.",
       image: "personalwebsite.png",
     },
     { 
       name: " Fitness App ",
-      description: "Another amazing project...",
+      description: "I wanted to create something that closely alignes with my interests and hobbies. I'm a big fan of fitness and I wanted to create an app that would help people track their workouts and progress. I also wanted to include a feature that would generate a workout plan based on the user's goals and preferences. I'm still in the early stages of this project but I'm excited to see where it goes. I'm also open to collaborating with other developers on this project. If you're interested, feel free to reach out to me!",
       image: "comingsoon.png",
     },
   ];
