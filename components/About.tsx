@@ -41,7 +41,7 @@ function About({}: Props) {
           background about me...<span></span>
         </h4>
         <p className="">(ok maybe not little)</p>
-        <div className="overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-20">
+        <div className="overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-80">
           <p >
             Firstly, thanks for stopping by! I guess a good place to begin would
             be by explaining why I&apos;m here. Well... my professional career up to
@@ -68,7 +68,7 @@ function About({}: Props) {
             didn&apos;t quite have the prerequisites to go down that path, and so I
             ended up studying Business and Management at University, which has
             served me pretty well up to now. Fast forward to present day and
-            bootcamps are now a thing!, and I was extremely fortunate enough to
+            bootcamps are now a thing! I was extremely fortunate enough to
             had been selected from over 3000 applicants to The School of Code
             alongside 89 other successful candidates. This was a 16-week
             <em>ridiculously</em> intensive yet life-changing and rewarding
@@ -79,8 +79,8 @@ function About({}: Props) {
             <br />
             Since we have now been released into the world having graduated and
             now armed with a whole new skillset, the aim is to build some cool
-            (and hopefully lucrative) stuff whilst also growing my skills in the
-            right company with the right people. I&apos;m also working on a few
+            (and hopefully lucrative) stuff whilst also growing my skills with 
+            the right people. I&apos;m also working on a few
             personal projects which I&apos;m hoping to share with you soon.
             <br />
             <br />
