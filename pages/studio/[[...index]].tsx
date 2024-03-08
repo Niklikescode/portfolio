@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import NextStudio from '@studiobear/next-studio'
-import config from '../../studio.config.js'
-import metadata from '../../studio.metadata.js'
+import { NextStudio } from 'next-sanity/studio'
+import { metadata } from 'next-sanity/studio/metadata'
 
 
 export default function StudioPage() {
@@ -12,7 +11,7 @@ export default function StudioPage() {
           <meta key={key} name={key} content={value} />
         ))}
       </Head>
-      <NextStudio config={config} />
+      
     </>
   )
 }
