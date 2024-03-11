@@ -35,7 +35,7 @@ function About({}: Props) {
         >
         <Image
         src={diving}
-        className="-mb-24 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        className="-mb-24 md:mb-0 flex-shrink-0 w-48 h-48 sm:h-48 sm:w-48 rounded-full object-cover md:rounded-lg md:w-full md:h-full xl:w-[6000px] xl:h-[600px]"
         alt="Me diving"
         />
       </motion.div>
@@ -46,7 +46,7 @@ function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background about me...<span></span>
         </h4>
-        <p className="">(ok maybe not little)</p>
+        <p className="">(ok maybe not a little)</p>
         <div className="overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-80">
           <p >
             Firstly, thanks for stopping by! I guess a good place to begin would
