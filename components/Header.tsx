@@ -1,3 +1,5 @@
+// this page shows two divs for social media icons and a div for email icon. Both are animated using framer-motion.
+
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion"
@@ -25,17 +27,22 @@ export default function Header({}: Props) {
       }}
       >
         <SocialIcon
-          url="https://youtube.com"
+          url="https://github.com/Niklikescode"
           fgColor="grey"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://youtube.com"
+          url="https://www.linkedin.com/in/nikhilbhalla38/"
           fgColor="grey"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://youtube.com"
+          url="https://twitter.com/NikB305"
+          fgColor="grey"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.youtube.com/channel/UCSmc0SQYcUH4zPI1NLEzGdA"
           fgColor="grey"
           bgColor="transparent"
         />
@@ -69,3 +76,5 @@ export default function Header({}: Props) {
     </header>
   );
 }
+
+
