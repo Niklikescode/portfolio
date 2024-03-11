@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import diving from "../public/diving.png";
+import Link from "next/link";
+
 
 type Props = {};
 
@@ -17,7 +19,7 @@ function About({}: Props) {
         About
       </h3>
 
-      <motion.img
+      <motion.div
         initial={{
           x: -200,
           opacity: 0,
@@ -30,9 +32,13 @@ function About({}: Props) {
           opacity: 1,
         }}
         viewport={{ once: true }}
+        >
+        <Image
         src={diving}
-        className="mb-0 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 xl:w-[500px] xl:h-[600px]"
-      />
+        className="-mb-24 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        alt="Me diving"
+        />
+      </motion.div>
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
