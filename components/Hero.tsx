@@ -12,10 +12,12 @@ type Props = {};
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hey, I'm Nikhil",
-      "...but you can call me Nik",
-      "I'm on a mission to tranform my life",
-      "So feel free to stick around and explore!",
+      "< Hey, I'm Nikhil",
+      "but you can call me Nik",
+      "I'm on a mission",
+      "to tranform my life",
+      "So do feel free",
+      "to stick around! />",
     ],
 
     loop: true,
@@ -32,7 +34,7 @@ function Hero({}: Props) {
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Developer</h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-2xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="purple" />
         </h1>
