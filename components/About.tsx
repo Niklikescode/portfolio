@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import diving from "../public/diving.jpg";
+import diving from "../public/diving.png";
 
 type Props = {};
 
@@ -30,7 +30,7 @@ function About({}: Props) {
           opacity: 1,
         }}
         viewport={{ once: true }}
-        src={diving.src}
+        src={diving}
         className="mb-0 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 xl:w-[500px] xl:h-[600px]"
       />
 
