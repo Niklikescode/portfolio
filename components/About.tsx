@@ -46,7 +46,7 @@ function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background about me...<span></span>
         </h4>
-        <p className="">(ok maybe not a little)</p>
+        
         <div className="overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-80">
           <p >
             Firstly, thanks for stopping by! I guess a good place to begin would
