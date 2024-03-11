@@ -35,13 +35,13 @@ function About({}: Props) {
         >
         <Image
         src={diving}
-        className="-mb-24 md:mb-0 flex-shrink-0 w-48 h-48 sm:h-48 sm:w-48 rounded-full object-cover md:rounded-lg md:w-full md:h-full xl:w-[6000px] xl:h-[600px]"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-48 h-48 sm:h-48 sm:w-48 rounded-full object-cover md:rounded-lg md:w-full md:h-full xl:w-[6000px] xl:h-[600px]"
         alt="Me diving"
         />
       </motion.div>
 
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
+        <h4 className="text-2xl lg:text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background about me...<span></span>
