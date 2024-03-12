@@ -9,8 +9,12 @@ import WorkExperience from "@/components/WorkExperience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
+import Link from "next/link";
+import nik_1024 from "@nik_1024.png"
 
 const inter = Inter({ subsets: ["latin"] });
+
+
 
 export default function Home() {
   return (
@@ -46,6 +50,16 @@ export default function Home() {
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
+
+      <Link href="#hero">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <Image className="h-8 w-8 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" 
+            src="/nik_1024.png" width={50} height={50} alt="logo" />
+          </div>
+        </footer>
+      </Link>
+
     </div>
   );
 }
