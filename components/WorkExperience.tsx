@@ -50,7 +50,7 @@ function WorkExperience({}: Props) {
 />
 
 <ExperienceCard
-  title="Regional Revenue & Performance Manager"
+  title="Revenue & Performance Manager"
   company="Sixt Rent a Car"
   image="sixt.png"
   description="

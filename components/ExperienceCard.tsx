@@ -50,7 +50,7 @@ function ExperienceCard({ title, company, image, description }: Props) {
           /> */}
 
           <div>
-          <p className="font-bold text-1xl mt-1 overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-80">{description}</p>
+          <p className=" text-1xl mt-1 overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-40">{description}</p>
           </div>
         </div>
       </div>
