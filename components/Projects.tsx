@@ -21,17 +21,17 @@ function Projects({}: Props) {
     },
     { 
       name: " Bottled Courage",
-      description: "A School of Code project, and as part of a team of 6 with 1 week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the c of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
+      description: "A School of Code project, and as part of a team of 6 with 1 week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the course of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
       image: "bottledcourage.png",
     },
     { 
       name: " Portfolio Website",
-      description: "The website you're on right now! I built this website using Next.js, Tailwind CSS and Framer Motion, as well as as some design ideas from Canva. I wanted to create a website that was both visually appealing and interactive. I also wanted to showcase my skills and projects in a unique way. I've learned a great deal from this project by utilising the knowledge knowledge gained from the School of Code bootcamp as well as using a 'just in time' approach to learing. I'm really happy with the results so far but there are many areas that require tweaking. I'm excited to see how this website evolves over time.",
+      description: "The website you're on right now! I built this website using Next.js, Tailwind CSS and Framer Motion, as well as as some design ideas from Canva and various NPM packages. I wanted to create a website that was both visually appealing and interactive. I also wanted to showcase my skills and projects in a unique way. I've learned a great deal from this project by utilising the knowledge gained from the School of Code bootcamp as well as using a 'just in time' approach to learning. I'm really happy with the results so far but there are many areas that require tweaking. I'm excited to see how this website evolves over time.",
       image: "personalwebsite.png",
     },
     { 
       name: " Fitness App ",
-      description: "I wanted to create something that closely alignes with my interests and hobbies. I'm a big fan of fitness and I wanted to create an app that would help people track their workouts and progress. I also wanted to include a feature that would generate a workout plan based on the user's goals and preferences. I'm still in the early stages of this project but I'm excited to see where it goes. I'm also open to collaborating with other developers on this project. If you're interested, feel free to reach out to me!",
+      description: "I wanted to create something that closely alignes with my interests and hobbies. I'm a big fan of weightlifting and I wanted to create an app that would help people track their workouts and progress. I also wanted to include a feature that would generate a workout plan based on the user's goals and preferences. I'm still in the early stages of this project but I'm excited to see where it goes. I'm also open to collaborating with other developers on this project. If you're interested, feel free to reach out to me!",
       image: "comingsoon.png",
     },
   ];
