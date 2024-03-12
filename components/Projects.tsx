@@ -7,19 +7,21 @@ type Project = {
   image: string;
 };
 
+
+
 type Props = {};
 
 function Projects({}: Props) {
   const projects: Project[] = [
     {
-      name: " Bubble (SoC)",
+      name: " Bubble",
       description:
-        "As part of a team of 5 and 4 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format.",
+        "A School of Code project, and as part of a team of 5 with 4 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format.",
       image: "bubblecanva.png",
     },
     { 
-      name: " Bottled Courage (SoC) ",
-      description: "As part of a team of 6 and a week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the c of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
+      name: " Bottled Courage",
+      description: "A School of Code project, and as part of a team of 6 with 1 week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the c of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
       image: "bottledcourage.png",
     },
     { 
@@ -35,6 +37,9 @@ function Projects({}: Props) {
   ];
 
   return (
+
+    
+
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -63,8 +68,12 @@ function Projects({}: Props) {
               alt={project.name}
             />
 
+<h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-5">
+        Projects
+      </h3>
+
             <div className="space-y-10 px-0 md-:px-10 max-w-6xl">
-              <h4 className="text-1xl lg:text-4xl font font-semibold text-center">
+              <h4 className="text-2xl lg:text-4xl font font-semibold text-center">
                 <span className="underline decoration-orange-400/50">
                   Project {index + 1} of {projects.length}:
                 </span>
