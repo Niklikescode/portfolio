@@ -64,14 +64,14 @@ function Projects({}: Props) {
             />
 
             <div className="space-y-10 px-0 md-:px-10 max-w-6xl">
-              <h4 className="text-4xl font font-semibold text-center">
+              <h4 className="text-1xl lg:text-4xl font font-semibold text-center">
                 <span className="underline decoration-orange-400/50">
                   Project {index + 1} of {projects.length}:
                 </span>
                 {project.name}
               </h4>
 
-              <p className="text-lg text-center md:text-left text-1xl mt-1 overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-40">
+              <p className="text-center  md:text-left text-1xl mt-1 overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-40">
                 {project.description}
               </p>
             </div>
