@@ -16,13 +16,13 @@ function Projects({}: Props) {
     {
       name: " Bubble",
       description:
-        "A School of Code project, and as part of a team of 5 with 4 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format.",
-      image: "bubblecanva.png",
+        "A School of Code project, and as part of a team of 5 with 3.5 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format. Together with using our newly-acquired knowlege from the Bootcamp, this was acheived through adhering to a solid Agile Manifesto, extensive planning and research through to wireframing and prototyping. and continuous collaboration.",
+      image: "bubblecanva2.png",
     },
     { 
       name: " Bottled Courage",
       description: "A School of Code project, and as part of a team of 6 with 1 week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the course of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
-      image: "bottledcourage.png",
+      image: "bottledcourage70.png",
     },
     { 
       name: " Portfolio Website",
@@ -68,8 +68,8 @@ function Projects({}: Props) {
               alt={project.name}
             />
 
-{/* 
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+
+      {/* <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         projects
       </h3> */}
 
