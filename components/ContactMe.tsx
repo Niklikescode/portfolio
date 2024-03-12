@@ -29,7 +29,7 @@ function ContactMe({}: Props) {
           <span className="underline decoration-orange-400/50">Lets Talk!</span>
         </h4>
 
-        <div className="space-y-10">
+        <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p>+447931147153</p>
@@ -45,48 +45,46 @@ function ContactMe({}: Props) {
             <p>Berkshire, United Kingdom</p>
           </div>
         </div>
-
         <form
-  onSubmit={handleSubmit(onSubmit)}
-  className="flex flex-col items-center justify-center space-y-2 w-full"
->
-  <div className="w-full">
-    <div className="flex space-x-2">
-      <input
-        {...register("name")}
-        type="text" 
-        placeholder="Name"
-        className="w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
-      />
-      <input
-        {...register("email")}
-        type="email" 
-        placeholder="Email"
-        className="w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
-      />
-    </div>
-    <div><br></br></div>
-    <input
-      {...register("subject")}
-      type="text" 
-      placeholder="Subject"
-      className="w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
-    />
-    <div><br></br></div>
-    <textarea
-      {...register("message")}
-      placeholder="Message"
-      className="w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
-    />
-  </div>
-  <div><br></br></div>
-  <button
-    type="submit"
-    className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg w-full"
-  >
-    Submit
-  </button>
-</form>
+          onSubmit={handleSubmit(onSubmit)}
+          className="flex flex-col items-center justify-center space-y-2 w-full"
+        >
+          
+          <div className="flex space-x-2">
+            <input
+              {...register("name")}
+              className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+              type="text"
+              placeholder="Name"
+            
+            />{" "}
+            <input
+              {...register("email")}
+              className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+          <input
+            {...register("subject")}
+            className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+            type="text"
+            placeholder="Subject"
+          />
+          <textarea
+            {...register("message")}
+            className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+            placeholder="Message"
+          />
+          <button
+            type="submit"
+            className="bg-[#f7ab0a] py-3 px-10 rounded-md text-black font-bold text-lg"
+          >
+            Submit
+          </button>
+        </form>
+        
+        
       </div>
     </div>
   );
