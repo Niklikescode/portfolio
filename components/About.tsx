@@ -15,7 +15,7 @@ function About({}: Props) {
       transition={{ duration: 1.5 }}
       className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-5">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-4">
         About
       </h3>
 
@@ -61,7 +61,7 @@ function About({}: Props) {
             I&apos;ve always had a passion for technology from a very young age,
             which stems from a fascination of the way things work. As a kid, if I wasn&apos;t doing the more common and stupid things kids get up to, I
             would often spend my time building model planes, drawing, painting, clay
-            modelling*, cooking, baking or trying to be the next Paul Daniels (yes I did have the set). Ultimately, whatever it was that I was doing, it
+            modelling*, cooking, baking or trying to be the next Paul Daniels - yes I did have the set. Ultimately, whatever it was that I was doing, it
             fundamentaly involved <em>making</em> something. As such I&apos;ve always
             been drawn to the idea of creating something from nothing, and I&apos;ve
             always been interested by the idea of building something that can be

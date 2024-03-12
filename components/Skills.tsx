@@ -16,26 +16,26 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid grid-cols-5 gap-5">
-        <Skill image="react3.png" />
-        <Skill image="canva.svg" />
-        <Skill image="typescript.svg" />
-        <Skill image="javascript.svg" />
-        <Skill image="figma.svg" />
-        <Skill image="nextjs.svg" />
-        <Skill image="jest.svg" />
         <Skill image="html5-original.svg" />
         <Skill image="css.svg" />
-        <Skill image="python.svg" />
-        <Skill image="postgres.svg" />
-        <Skill image="nodejs.svg" />
-        <Skill image="mongodb.svg" />
-        <Skill image="git.svg" />
         <Skill image="tailwind.svg" />
-        <Skill image="vscode2.svg" />
-        <Skill image="photoshop.svg" />
-        <Skill image="trello.svg" />
-        <Skill image="chakra.svg" />
+        <Skill image="javascript.svg" />
+        <Skill image="typescript.svg" />
+        <Skill image="react3.png" />
+        <Skill image="nextjs.svg" />
+        <Skill image="python.svg" />
+        <Skill image="nodejs.svg" />
+        <Skill image="postgres.svg" />
+        <Skill image="mongodb.svg" />
+        <Skill image="jest.svg" />
         <Skill image="playwright.png" />
+        <Skill image="git.svg" />
+        <Skill image="vscode2.svg" />
+        <Skill image="chakra.svg" />
+        <Skill image="photoshop.svg" />
+        <Skill image="canva.svg" />
+        <Skill image="figma.svg" />
+        <Skill image="trello.svg" />
       </div>
     </motion.div>
   );
