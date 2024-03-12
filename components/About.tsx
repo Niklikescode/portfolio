@@ -42,7 +42,7 @@ function About({}: Props) {
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="-mb-4 mt-4 text-2xl lg:text-4xl font-semibold ">
-          Here is a{" "}
+          Here&apos;s a{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background about me...<span></span>
         </h4>
@@ -77,7 +77,7 @@ function About({}: Props) {
             bootcamps are now a thing! I was extremely fortunate enough to
             had been selected from over 3000 applicants to The School of Code
             alongside 89 other successful candidates. This was a 16-week
-            <em>ridiculously</em> intensive yet life-changing and rewarding
+            <em> ridiculously</em> intensive yet life-changing and rewarding
             bootcamp in Full-Stack Software Development, where I was able to
             learn and develop my skills and work on some amazing projects with a
             very talented and diverse mix of people.

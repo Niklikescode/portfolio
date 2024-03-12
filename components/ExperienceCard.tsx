@@ -10,7 +10,7 @@ type Props = {
 
 function ExperienceCard({ title, company, image, description }: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden ">
+    <article className="flex flex-col rounded-lg items-center space-y-9 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center p-13 mt-32 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden  ">
       <motion.img
         initial={{
           y: -100,
@@ -22,7 +22,7 @@ function ExperienceCard({ title, company, image, description }: Props) {
           opacity: 1,
         }}
         viewport={{ once: true }}
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-fill object-center"
+        className=" mt-8 w-20 h-20 rounded-full xl:w-[200px] xl:h-[200px] object-fill object-center"
         src={image}
         alt="work experience icons"
       />
@@ -50,7 +50,7 @@ function ExperienceCard({ title, company, image, description }: Props) {
           /> */}
 
           <div>
-          <p className="font-bold text-1xl mt-1">{description}</p>
+          <p className="font-bold text-1xl mt-1 overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-80">{description}</p>
           </div>
         </div>
       </div>
