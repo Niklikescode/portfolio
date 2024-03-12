@@ -73,12 +73,12 @@ function ContactMe({}: Props) {
           />
           <textarea
             {...register("message")}
-            className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+            className="contactInput w-full px-4 py-8 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
             placeholder="Message"
           />
           <button
             type="submit"
-            className="bg-[#f7ab0a] py-3 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#f7ab0a] py-1 px-5 rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>
