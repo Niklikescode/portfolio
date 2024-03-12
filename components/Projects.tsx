@@ -68,9 +68,10 @@ function Projects({}: Props) {
               alt={project.name}
             />
 
-<h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-5">
-        Projects
-      </h3>
+{/* 
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+        projects
+      </h3> */}
 
             <div className="space-y-10 px-0 md-:px-10 max-w-6xl">
               <h4 className="text-2xl lg:text-4xl font font-semibold text-center">
@@ -80,7 +81,7 @@ function Projects({}: Props) {
                 {project.name}
               </h4>
 
-              <p className="text-center  md:text-left text-1xl mt-1 overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-40">
+              <p className="  text-left md:text-left text-1xl mt-1 overflow-y-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin h-40">
                 {project.description}
               </p>
             </div>
