@@ -55,7 +55,7 @@ export default function Home() {
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <Image className="h-8 w-8 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" 
-            src="/nik_128.png" width={30} height={30} alt="logo" />
+            src="/nik_128.png" width={100} height={100} alt="logo" />
           </div>
         </footer>
       </Link>
