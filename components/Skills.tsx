@@ -12,7 +12,7 @@ function Skills({}: Props) {
       </h3>
 
       <h3 className="absolute top-36 uppercase tracking-[3px] text text-gray-500 text-sm">
-        HOVER OVER EACH SKILL TO SEE PROFICIENCY
+        HOVER OVER EACH SKILL TO SEE PROFICIENCY (IN DEVELOPMENT)
       </h3>
 
       <div className="grid grid-cols-5 gap-5">
