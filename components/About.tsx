@@ -115,7 +115,7 @@ function About({}: Props) {
             <br />
             <br />*
             <em>
-              <small>Play-Doh</small>
+              <small>Playdough</small>
             </em>
           </p>
         </div>
