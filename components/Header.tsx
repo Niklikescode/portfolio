@@ -68,7 +68,7 @@ function Header({}: Props) {
         duration: 1.5,
       }}
       
-      className="flex flex-row items-center text-gray-300 cursor-pointer">
+      className="flex flex-row items-center text-gray-300 cursor-pointer z-20">
         <SocialIcon
           className="cursor-pointer"
           network="email"
