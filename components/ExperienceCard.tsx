@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
+
 
 type Props = {
   title: string;
@@ -58,4 +60,4 @@ function ExperienceCard({ title, company, image, description }: Props) {
   );
 }
 
-export default ExperienceCard;
+export default dynamic (() => Promise.resolve(ExperienceCard), {ssr: false})

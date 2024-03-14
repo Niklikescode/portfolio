@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
 
 
 type Props = {
@@ -33,4 +34,4 @@ function Skill({ image, directionLeft }: Props) {
   );
 };
 
-export default Skill;
+export default dynamic (() => Promise.resolve(Skill), {ssr: false})

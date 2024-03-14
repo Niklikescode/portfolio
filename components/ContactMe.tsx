@@ -1,6 +1,8 @@
 import React from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
+import dynamic from "next/dynamic";
+
 
 type Inputs = {
   name: string;
@@ -90,4 +92,4 @@ function ContactMe({}: Props) {
   );
 }
 
-export default ContactMe;
+export default dynamic (() => Promise.resolve(ContactMe), {ssr: false})

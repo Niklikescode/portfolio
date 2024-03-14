@@ -6,6 +6,8 @@ import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
 import nik from "../public/nik.jpg";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
 
 type Props = {};
 
@@ -64,4 +66,4 @@ function Hero({}: Props) {
   );
 }
 
-export default Hero;
+export default dynamic (() => Promise.resolve(Hero), {ssr: false})

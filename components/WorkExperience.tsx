@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
+import dynamic from "next/dynamic";
+
 
 type Props = {};
 
@@ -43,7 +45,7 @@ function WorkExperience({}: Props) {
   description="
   Directly supporting Sales Account Managers, Inside Sales Managers and Sales Directors in SMB, Public Sector, Corporate and Global accounts across multiple Sales floors within the IT reseller and distributor, communication service and communication software channel, consisting of Computacenter, Insight, Misco, Softcat, BT, SCC, Bechtle, PCM, Unify, Westcon, Exertis, and Ingram Micro.
 
-Managing the complete Video Conferencing, Contact Centre and Unified Communications headset portfolio, and Software as a Service – Poly's cloud based asset management software, by working closely with internal Inside Sales and Marketing teams and Corporate Account Managers to seek and develop opportunities within the Corporate, Public Sector and Enterprise arenas.
+Managing the complete Video Conferencing, Contact Centre and Unified Communications headset portfolio and Poly's cloud based asset management software, by working closely with internal Inside Sales and Marketing teams and Corporate Account Managers to seek and develop opportunities within the Corporate, Public Sector and Enterprise arenas.
 
 This is achieved through the continuous training of smarter-working enablers, new and frequent business price support, sales incentive schemes, sales floor call-out activity and technical support to Account Managers as well as direct customer engagement.
 
@@ -104,4 +106,4 @@ Store Manager"
   );
 }
 
-export default WorkExperience;
+export default dynamic (() => Promise.resolve(WorkExperience), {ssr: false})

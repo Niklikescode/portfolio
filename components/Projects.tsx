@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
+import dynamic from "next/dynamic";
+
 
 type Project = {
   name: string;
@@ -97,4 +99,4 @@ function Projects({}: Props) {
   );
 }
 
-export default Projects;
+export default dynamic (() => Promise.resolve(Projects), {ssr: false})

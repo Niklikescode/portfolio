@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
+import dynamic from "next/dynamic";
+
 
 type Props = {};
 
@@ -41,4 +43,4 @@ function Skills({}: Props) {
   );
 }
 
-export default Skills;
+export default dynamic (() => Promise.resolve(Skills), {ssr: false})

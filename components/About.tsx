@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import diving from "../public/diving.png";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
 
 type Props = {};
 
@@ -124,4 +126,4 @@ function About({}: Props) {
   );
 }
 
-export default About;
+export default dynamic (() => Promise.resolve(About), {ssr: false})
