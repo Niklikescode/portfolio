@@ -34,4 +34,4 @@ function BackgroundCircles({}: Props) {
   )
 }
 
-export default dynamic (() => Promise.resolve(BackgroundCircles), {ssr: false})
+export default BackgroundCircles;

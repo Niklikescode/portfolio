@@ -66,4 +66,4 @@ function Hero({}: Props) {
   );
 }
 
-export default dynamic (() => Promise.resolve(Hero), {ssr: false})
+export default Hero;

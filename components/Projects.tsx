@@ -99,4 +99,4 @@ function Projects({}: Props) {
   );
 }
 
-export default dynamic (() => Promise.resolve(Projects), {ssr: false})
+export default Projects;
