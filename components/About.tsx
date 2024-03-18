@@ -109,11 +109,7 @@ function About({}: Props) {
             forever, but if you do want to chat, feel free to drop me a message
             or give me a shout through the contact space below. I&apos;d love to
             hear from you!
-            <br />
-            <br />
-            With that, I&apos;m excited to see where this journey takes me as I
-            navigate these tricky waters (pic intended), and I&apos;m looking
-            forward to sharing it all with you! 🚀
+            
             <br />
             <br />*
             <em>
