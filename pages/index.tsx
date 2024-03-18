@@ -49,16 +49,17 @@ export default function Home() {
      
       <section id="contact" className="snap-start">
         <ContactMe />
-      </section>
-
-      <Link href="#hero">
-        <footer className="fixed bottom-5 w-full cursor-pointer">
+        <Link href="#hero">
+        
           <div className="flex items-center justify-center">
-            <Image className="h-4 w-4  sm:h-8 sm:w-8 rounded-full filter grayscale  hover:grayscale-0 cursor-pointer" 
+            <Image className="h-4 w-4 mb-2  sm:h-8 sm:w-8 rounded-full filter grayscale  hover:grayscale-0 cursor-pointer" 
             src="/nik_128.png" width={100} height={100} alt="logo" />
           </div>
-        </footer>
+        
       </Link>
+      </section>
+
+      
 
     </div>
   );
