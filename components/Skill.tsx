@@ -22,7 +22,7 @@ function Skill({ image, directionLeft }: Props) {
             animate={{ rotate: 360 }}
     
         src={image}
-        className="rounded-full border border-gray-500 object-cover w-14 h-14 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale    "
+        className="rounded-full border border-gray-500 object-cover w-14 h-14 md:w-20 md:h-20 xl:w-32 xl:h-32 filter group-hover:grayscale    "
       />
 
       <div className="absolute opacity-0 group-hover:opacity-80  group-hover:bg-white h-14 w-15 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0 ">
