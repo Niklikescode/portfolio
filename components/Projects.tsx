@@ -58,7 +58,7 @@ function Projects({}: Props) {
           >
             {/* existing code for image and project details */}
             <motion.img
-              className=" object-fill sm:max-w-96 2xl:max-w-100 object-center"
+              className="w-34 h-34  object-fill object-center"
               //  existing image animation props ...
               initial={{
                 y: -300,
