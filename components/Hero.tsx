@@ -35,28 +35,28 @@ function Hero({}: Props) {
         alt="Profile pic of Nik"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[12px]">Software Developer</h2>
+        <h2 className=" uppercase text-gray-500 pb-2 tracking-[12px]">Software Developer</h2>
         <h1 className="text-2xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="purple" />
         </h1>
 
-        <div className="pt-5">
+        <div className=" pt-2 sm:pt-5">
 
           <Link href="#about">
-          <button className="heroButton">About</button>
+          <button className="heroButton mr-1">About</button>
           </Link>
 
           <Link href="#experience">
-          <button className="heroButton">Experience</button>
+          <button className="heroButton mr-1">Experience</button>
           </Link>
 
           <Link href="#skills">
-          <button className="heroButton">Skills</button>
+          <button className="heroButton mr-1">Skills</button>
           </Link>
 
           <Link href="#projects">
-          <button className="heroButton">Projects</button>
+          <button className="heroButton mr-1">Projects</button>
           </Link>
 
         </div>
