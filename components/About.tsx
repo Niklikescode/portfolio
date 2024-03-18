@@ -51,7 +51,7 @@ function About({}: Props) {
         <div className="overflow-y-scroll scrollbar-thin h-72 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
           <p className="text-left flex-auto">
             Firstly, thanks for stopping by! I guess a good place to begin would
-            be explaining why I&apos;m here. Well, boring part first... my
+            be to explain why I&apos;m here. Well, boring part first... my
             professional career up to now has predominantly been in the
             technology space within a sales and managerial/client-facing
             capacity, where I&apos;ve had the pleasure of working with some
