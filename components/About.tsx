@@ -126,4 +126,4 @@ function About({}: Props) {
   );
 }
 
-export default dynamic (() => Promise.resolve(About), {ssr: false})
+export default About
