@@ -34,4 +34,4 @@ function Skill({ image, directionLeft }: Props) {
   );
 };
 
-export default dynamic (() => Promise.resolve(Skill), {ssr: false})
+export default Skill

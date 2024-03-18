@@ -43,4 +43,4 @@ function Skills({}: Props) {
   );
 }
 
-export default dynamic (() => Promise.resolve(Skills), {ssr: false})
+export default Skills

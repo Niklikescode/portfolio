@@ -60,4 +60,4 @@ function ExperienceCard({ title, company, image, description }: Props) {
   );
 }
 
-export default dynamic (() => Promise.resolve(ExperienceCard), {ssr: false})
+export default ExperienceCard

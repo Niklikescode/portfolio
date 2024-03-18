@@ -106,4 +106,4 @@ Store Manager"
   );
 }
 
-export default dynamic (() => Promise.resolve(WorkExperience), {ssr: false})
+export default WorkExperience
