@@ -13,11 +13,11 @@ function Skills({}: Props) {
         Skills
       </h3>
 
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-1xl md:text-2xl text-gray-500 text-sm">
+      <h3 className="absolute top-36  uppercase tracking-[3px] text-1xl md:text-2xl text-gray-500 ">
         HOVER OVER EACH SKILL TO SEE PROFICIENCY (IN DEVELOPMENT)
       </h3>
 
-      <div className="grid grid-cols-5 gap-5 md:mt-16">
+      <div className="grid grid-cols-5 gap-5 md:mt-20 lg:mt-20">
         <Skill image="html5-original.svg" />
         <Skill image="css.svg" />
         <Skill image="tailwind.svg" />
