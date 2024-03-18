@@ -48,7 +48,7 @@ function About({}: Props) {
         </h4>
 
         <div className=" overflow-y-scroll scrollbar-thin h-72 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
-          <p className="text-left">
+          <p className="py-2 text-left">
             Firstly, thanks for stopping by! I guess a good place to begin would
             be to explain why I&apos;m here. Let&apos;s get the boring bit out
             the way... my professional career up to now has predominantly been
