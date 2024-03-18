@@ -20,7 +20,7 @@ function BackgroundCircles({}: Props) {
     }}
 
     transition={{
-      duration: 2.5,
+      duration: 5,
     }}
     
     className='relative flex justify-center items-center mt-20'>
