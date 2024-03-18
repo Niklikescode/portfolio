@@ -5,7 +5,6 @@ import diving from "../public/diving.png";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
-
 type Props = {};
 
 function About({}: Props) {
@@ -51,9 +50,9 @@ function About({}: Props) {
         <div className="overflow-y-scroll scrollbar-thin h-72 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
           <p className="text-left flex-auto">
             Firstly, thanks for stopping by! I guess a good place to begin would
-            be to explain why I&apos;m here. Well, boring part first... my
-            professional career up to now has predominantly been in the
-            technology space within a sales and managerial/client-facing
+            be to explain why I&apos;m here. Let&apos;s get the boring bit out
+            the way... my professional career up to now has predominantly been
+            in the technology space within a sales and managerial/client-facing
             capacity, where I&apos;ve had the pleasure of working with some
             amazing companies across a diverse collection of industries.
             I&apos;ve been lucky enough to work and learn from some of the best
@@ -94,8 +93,9 @@ function About({}: Props) {
             Since graduating and being released back into the world now armed
             with a whole new skillset, the aim is to build some cool (and
             hopefully lucrative) stuff whilst also growing my skills with the
-            right people. I&apos;m also working on a few personal projects which
-            I&apos;m hoping to share with you soon.
+            right people - preferably the crypto and blockchain space. I&apos;m
+            also working on a few personal projects which I&apos;m hoping to
+            share with you soon.
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
@@ -109,7 +109,6 @@ function About({}: Props) {
             forever, but if you do want to chat, feel free to drop me a message
             or give me a shout through the contact space below. I&apos;d love to
             hear from you!
-            
             <br />
             <br />*
             <em>
@@ -122,4 +121,4 @@ function About({}: Props) {
   );
 }
 
-export default About
+export default About;
