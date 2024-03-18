@@ -17,7 +17,7 @@ function Skills({}: Props) {
         HOVER OVER EACH SKILL TO SEE PROFICIENCY (IN DEVELOPMENT)
       </h3>
 
-      <div className="grid grid-cols-5 gap-5">
+      <div className="grid grid-cols-5 gap-5 md:mt-16">
         <Skill image="html5-original.svg" />
         <Skill image="css.svg" />
         <Skill image="tailwind.svg" />
