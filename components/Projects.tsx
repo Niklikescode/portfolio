@@ -48,7 +48,7 @@ function Projects({}: Props) {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
-      {/* Your existing code for the heading and scrollbar */}
+      {/* existing code for the heading and scrollbar */}
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         {projects.map((project, index) => (
@@ -56,9 +56,10 @@ function Projects({}: Props) {
             key={project.name} // Use a unique key for each project
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44 h-screen"
           >
-            {/* Your existing code for image and project details */}
+            {/* existing code for image and project details */}
             <motion.img
-              // ... your existing image animation props ...
+              className=" object-fill sm:max-w-96 2xl:max-w-100 object-center"
+              //  existing image animation props ...
               initial={{
                 y: -300,
                 opacity: 0,
@@ -91,7 +92,7 @@ function Projects({}: Props) {
         ))}
       </div>
 
-      {/* Your existing code for the background decoration */}
+      {/* existing code for the background decoration */}
 
       
       <div className="w-full absolute top-[30%] bg-[#086788]/10 left-0 h-[500px] -skew-y-12 uppercase tracking-[50px] text-gray-500 text-1xl lg:text-5xl"> projects</div>
