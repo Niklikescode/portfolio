@@ -26,7 +26,7 @@ function ContactMe({}: Props) {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="text-2xl lg:text-4xl mt-24 font-semibold text-center">
+        <h4 className="text-2xl lg:text-4xl mt-12 font-semibold text-center">
           I&apos;d love to hear from you. <br />
           <span className="underline decoration-orange-400/50">Lets Talk!</span>
         </h4>
@@ -44,7 +44,7 @@ function ContactMe({}: Props) {
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p>Berkshire, United Kingdom</p>
+            <p>London, United Kingdom</p>
           </div>
         </div>
         <form
