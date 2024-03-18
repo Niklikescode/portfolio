@@ -92,4 +92,4 @@ function ContactMe({}: Props) {
   );
 }
 
-export default ContactMe;
+export default dynamic (() => Promise.resolve(ContactMe), {ssr: false})
