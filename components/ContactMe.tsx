@@ -31,19 +31,19 @@ function ContactMe({}: Props) {
           <span className="underline decoration-orange-400/50">Lets Talk!</span>
         </h4>
 
-        <div className="space-y-5">
+        <div className="space-y-2">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <PhoneIcon className="text-[#F7AB0A] h-5 w-5 animate-pulse" />
             <p>+447931147153</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <EnvelopeIcon className="text-[#F7AB0A] h-5 w-5 animate-pulse" />
             <p>niklikescode@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <MapPinIcon className="text-[#F7AB0A] h-5 w-5 animate-pulse" />
             <p>London, United Kingdom</p>
           </div>
         </div>
