@@ -77,7 +77,7 @@ function Projects({}: Props) {
       </h3> */}
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="sm:text-2xl px-0 lg:text-4xl font font-semibold text-center">
+              <h4 className=" sm:text-2xl px-0 lg:text-4xl font font-semibold text-center">
                 <span className="underline decoration-orange-400/50">
                   Project {index + 1}:
                 </span>
@@ -95,7 +95,7 @@ function Projects({}: Props) {
       {/* existing code for the background decoration */}
 
       
-      <div className="w-full absolute top-[30%] bg-[#086788]/10 left-0 h-[500px] -skew-y-12 uppercase tracking-[50px] text-gray-500 text-1xl lg:text-5xl"> projects</div>
+      <div className="w-full absolute top-[30%] bg-[#086788]/10 left-0 h-[500px] -skew-y-12 uppercase tracking-[20px] lg:tracking-[50px] text-gray-500 text-[50px] lg:text-5xl"> projects</div>
     </motion.div>
   );
 }
