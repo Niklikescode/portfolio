@@ -94,8 +94,8 @@ function About({}: Props) {
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
-            weightlifting, trading, settling in to a good book or a good movie (in that order),
-            playing basketball and tennis or whooping ass at pool, and delving
+            weightlifting, trading, settling in to a good book or a good movie,
+            playing basketball and tennis or cleaning up at pool, as well as delving
             in to all things old-school Hiphop - especially live. Most of all...
             I LOVE to see the world.
             <br />
