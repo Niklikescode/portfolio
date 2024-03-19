@@ -95,7 +95,7 @@ function Projects({}: Props) {
       {/* existing code for the background decoration */}
 
       
-      <div className="w-full absolute top-[30%] bg-[#086788]/10 left-0 h-[500px] -skew-y-12 uppercase tracking-[19px] lg:tracking-[50px] text-gray-500 text-[50px] lg:text-5xl"> projects</div>
+      <div className="w-full absolute top-[30%] bg-[#086788]/30 left-0 h-[500px] -skew-y-12 uppercase tracking-[19px] lg:tracking-[50px] text-gray-500 text-[50px] lg:text-5xl" > projects</div>
     </motion.div>
   );
 }

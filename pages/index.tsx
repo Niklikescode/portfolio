@@ -11,6 +11,7 @@ import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
 import nik_1024 from "@nik_1024.png"
+import Starfield from "@/components/Starfield"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg-[#161a1d] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-track-gray-400/20 scrollbar-thumb-[#e59500]/80 scrollbar-thin ">
+    <div className=" text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-track-gray-400/20 scrollbar-thumb-[#e59500]/80 scrollbar-thin ">
       
       <Head>
         <title>Nikhil&apos;s Portfolio</title>
@@ -59,6 +60,8 @@ export default function Home() {
           </div>
         </footer>
       </Link>
+
+      <Starfield  />
 
     </div>
   );

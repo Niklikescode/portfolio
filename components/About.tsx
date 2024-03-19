@@ -93,7 +93,7 @@ function About({}: Props) {
             Since graduating and being released back into the world now armed
             with a whole new skillset, the aim is to build some cool (and
             hopefully lucrative) stuff whilst also growing my skills with the
-            right people - preferably the crypto and blockchain space. I&apos;m
+            right people - preferably in the crypto and blockchain space. I&apos;m
             also working on a few personal projects which I&apos;m hoping to
             share with you soon.
             <br />

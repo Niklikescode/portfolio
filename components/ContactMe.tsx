@@ -55,32 +55,32 @@ function ContactMe({}: Props) {
           <div className="flex space-x-2">
             <input
               {...register("name")}
-              className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+              className="contactInput w-full px-4 py-2 space-y-2 rounded-md border  bg-[#086788]/30 border-gray-300 focus:outline-none focus:border-blue-500"
               type="text"
               placeholder="Name"
             
             />{" "}
             <input
               {...register("email")}
-              className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+              className="contactInput w-full px-4 py-2 space-y-2 rounded-md border  bg-[#086788]/30 border-gray-300 focus:outline-none focus:border-blue-500"
               type="email"
               placeholder="Email"
             />
           </div>
           <input
             {...register("subject")}
-            className="contactInput w-full px-4 py-2 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+            className="contactInput w-full px-4 py-2 space-y-2 rounded-md border  bg-[#086788]/30 border-gray-300 focus:outline-none focus:border-blue-500"
             type="text"
             placeholder="Subject"
           />
           <textarea
             {...register("message")}
-            className="contactInput w-full px-4 py-8 space-y-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+            className="contactInput w-full px-4 py-8 space-y-2 rounded-md border  bg-[#086788]/30 border-gray-300 focus:outline-none focus:border-blue-500"
             placeholder="Message"
           />
           <button
             type="submit"
-            className="bg-[#f7ab0a] py-1 px-5 rounded-md text-black font-bold text-lg"
+            className="bg-[#f7ab0a]/50 hover:bg-[#f7ab0a] py-1 px-4 rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>

@@ -24,7 +24,7 @@ function Skills({}: Props) {
         <Skill image="javascript.svg" />
         <Skill image="typescript.svg" />
         <Skill image="react3.png" />
-        <Skill image="nextjs.svg" />
+        <Skill image="nextjs.png" />
         <Skill image="python.svg" />
         <Skill image="nodejs.svg" />
         <Skill image="postgres.svg" />
