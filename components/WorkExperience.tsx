@@ -24,17 +24,7 @@ function WorkExperience({}: Props) {
   title="Software Developer"
   company="School of Code"
   image="soc2.png"
-  description="Shortlisted from over 3000 applicants, I was chosen for School Of Code's 15th Cohort bootcamp alongside 89 successful candidates. This 16-week intensive bootcamp in Full-Stack Software Development enables career-ready proficiency in the following skillsets:
-
-  Fundamentals of the Web: Building a strong foundation in web technologies, including HTML, CSS, and introductory JavaScript.
-  Advanced JavaScript: Delving deeper into JavaScript, acquiring advanced programming skills through practical problem-solving.
-  Back End Development: Proficiently using Node.js to grasp back-end development concepts, from server fundamentals to utilizing ExpressJS for production-ready services.
-  APIs and Databases: Mastering the essential role of APIs in modern web development and gaining proficiency in database communication using SQL and PostgreSQL.
-  Advanced Front End with React: Acquiring in-depth knowledge of React, a widely-used front-end JavaScript library for building impressive user interfaces.
-  Cloud Hosting: Learning to leverage cloud infrastructure for hosting applications and services.
-  Real-World Projects: Successfully completing key projects as well as creating and presenting weekly hackathons, including solving challenges for multinational corporations.
-  Team Collaboration: Developing teamwork skills by working collaboratively with peers, and learning modern team dynamics in tech by implementing Agile methodologies.
-  Networking and Profile Building: Recognising the importance of networking and building a professional network within the local and global tech community.
+  description="Shortlisted from over 3000 applicants, I was chosen for School Of Code's 15th Cohort bootcamp alongside 89 successful candidates. This 16-week intensive bootcamp in Full-Stack Software Development enables career-ready proficiency in the fundamentals of the Web and building a strong foundation in web technologies, including HTML, CSS, and introductory through to advanced JavaScript - acquiring advanced programming skills through practical problem-solving. On the Back End - gaining proficiency in using Node.js to grasp back-end development concepts, from server fundamentals to utilizing ExpressJS for production-ready services, as well as mastering the essential role of APIs in modern web development and gaining proficiency in database communication using SQL and PostgreSQL. This was coupled with advanced Front End with React and Nextjs, acquiring in-depth knowledge of widely-used front-end JavaScript libraries for building impressive user interfaces. For Cloud Hosting, I learned to leverage cloud infrastructure for hosting applications and services. Beyond this, I successfully completed real-world projects as well as creating and presenting weekly hackathons by working collaboratively with peers, and learning modern team dynamics in tech by implementing Agile methodologies. 
   " 
 />
 
@@ -43,15 +33,13 @@ function WorkExperience({}: Props) {
   company="HP / Poly"
   image="hp-poly2.png"
   description="
-  Directly supporting Sales Account Managers, Inside Sales Managers and Sales Directors in SMB, Public Sector, Corporate and Global accounts across multiple Sales floors within the IT reseller and distributor, communication service and communication software channel, consisting of Computacenter, Insight, Misco, Softcat, BT, SCC, Bechtle, PCM, Unify, Westcon, Exertis, and Ingram Micro.
+  Directly supporting Sales Account Managers, Inside Sales Managers and Sales Directors in SMB, Public Sector, Corporate and Global accounts across multiple Sales floors within the IT reseller and distributor, communication service and communication software channel, consisting of Computacenter, Insight, Misco, Softcat, BT, SCC, Bechtle, PCM, Unify, Westcon, Exertis, Nuvias and Ingram Micro.
 
 Managing the complete Video Conferencing, Contact Centre and Unified Communications headset portfolio and Poly's cloud based asset management software, by working closely with internal Inside Sales and Marketing teams and Corporate Account Managers to seek and develop opportunities within the Corporate, Public Sector and Enterprise arenas.
 
-This is achieved through the continuous training of smarter-working enablers, new and frequent business price support, sales incentive schemes, sales floor call-out activity and technical support to Account Managers as well as direct customer engagement.
+This was achieved through the continuous training of smarter-working enablers, new and frequent business price support, sales incentive schemes, sales floor call-out activity and technical support to Account Managers as well as direct customer engagement.
 
-Representing the brand in partner networking events and industry exhibitions alongside Microsoft, Cisco, HP, Dell, Lenovo and vendors collaboratively working within the UC ecosystem.
-
-Proven success in over-achieving 100% of quota quarterly since joining the company to date."
+I represented the brand in partner networking events and industry exhibitions alongside Microsoft, Cisco, HP, Dell, Lenovo and vendors collaboratively working within the UC ecosystem."
 />
 
 <ExperienceCard
