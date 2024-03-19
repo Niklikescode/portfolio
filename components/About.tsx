@@ -61,13 +61,12 @@ function About({}: Props) {
             <br />
             <br />
             I&apos;ve always had a passion for creativity from a very young age,
-            which stems from a fascination of the way things work. As a kid, if
-            I wasn&apos;t doing the more common and stupid things kids get up
-            to, I would often spend my time drawing, painting, playing
-            instruments, building model planes, clay modeling*, cooking, baking
-            or trying to be the next Paul Daniels - yes I did have the set.
-            Ultimately, whatever it was that I was doing, it fundamentaly
-            involved{" "}
+            which stems from a fascination of the way things work. As a kid, and
+            outside of the usual silly things kids get up to, I would often
+            spend my time drawing, painting, playing instruments, building model
+            planes, clay modeling*, cooking, baking or trying to be the next
+            Paul Daniels - yes I did have the set. Ultimately, whatever it was
+            that I was doing, it fundamentaly involved{" "}
             <em>
               <strong>making</strong>
             </em>{" "}
@@ -77,38 +76,38 @@ function About({}: Props) {
             others.
             <br />
             <br />
-            Through academia, computer science did interest me a lot, however I
-            didn&apos;t quite have the prerequisites to go down that path, and
-            so I ended up studying Business and Marketing at University, which
-            has served me pretty well up to now. Fast forward to present day and
-            bootcamps are now a thing! I was extremely fortunate enough to have
-            been selected from over 3000 applicants to The School of Code
-            alongside 89 other successful candidates. This was a 16-week
+            In late 2023 I was extremely fortunate enough to had been selected
+            from over 3000 applicants to The School of Code alongside 89 other
+            successful candidates. This was a 16-week
             <em> ridiculously</em> intensive yet life-changing and rewarding
-            bootcamp in Full-Stack Software Development, where I was able to
-            learn and develop my skills and work on some amazing projects with a
-            very talented and diverse mix of people.
+            bootcamp in Full-Stack Software and Web Development, where I was
+            able to learn and develop my skills and work on some amazing
+            projects alongside a very talented and diverse mix of people.
             <br />
             <br />
             Since graduating and being released back into the world now armed
-            with a whole new skillset, the aim is to build some cool (and
-            hopefully lucrative) stuff whilst also growing my skills with the
-            right people - preferably in the crypto and blockchain space. I&apos;m
-            also working on a few personal projects which I&apos;m hoping to
-            share with you soon.
+            with a whole new skillset, the aim is to build some cool, useful and
+            hopefully lucrative stuff whilst also growing my skills with the
+            right people - preferably in the crypto and blockchain space but not
+            limited to. I&apos;m also working on a few personal projects which
+            I&apos;m hoping to share with you soon!
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
-            travelling the world, weightlifting, settling in to a good book or a
-            good movie, playing basketball and tennis or whooping ass at pool,
-            and delving in to all things old-school Hiphop - especially live.
-            Most of all... I LOVE a social.
+            weightlifting, trading, settling in to a good book or a good movie,
+            playing basketball and tennis or whooping ass at pool, and delving
+            in to all things old-school Hiphop - especially live. Most of all...
+            I LOVE to see the world.
             <br />
             <br />
-            This is probably a good place to wrap things up as I can go on
-            forever, but if you do want to chat, feel free to drop me a message
-            or give me a shout through the contact space below. I&apos;d love to
-            hear from you!
+            I&apos;ll wrap it up here and leave you with my website, where
+            roughly 7 months prior to its completion, I had never written a
+            single line of code in my life...
+            <br />
+            <br />
+            If you do want to chat, feel free to drop me a message or give me a
+            shout through the contact space below. I&apos;d love to hear from
+            you!
             <br />
             <br />*
             <em>
