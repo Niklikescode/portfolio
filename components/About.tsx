@@ -81,7 +81,7 @@ function About({}: Props) {
             successful candidates. This was a 16-week
             <em> ridiculously</em> intensive yet life-changing and rewarding
             bootcamp in Full-Stack Software and Web Development, where I was
-            able to learn and develop my skills and work on some amazing
+            able to learn and develop my skills and work on some brilliant
             projects alongside a very talented and diverse mix of people.
             <br />
             <br />
@@ -94,7 +94,7 @@ function About({}: Props) {
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
-            weightlifting, trading, settling in to a good book or a good movie,
+            weightlifting, trading, settling in to a good book or a good movie (in that order),
             playing basketball and tennis or whooping ass at pool, and delving
             in to all things old-school Hiphop - especially live. Most of all...
             I LOVE to see the world.
