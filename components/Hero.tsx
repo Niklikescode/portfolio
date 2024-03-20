@@ -17,7 +17,7 @@ function Hero({}: Props) {
       "< Hey, I'm Nikhil",
       "you can call me Nik",
       "I'm on a mission",
-      "to tranform my life",
+      "to transform my life",
       "So do feel free",
       "to stick around! />",
     ],
