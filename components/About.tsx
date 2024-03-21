@@ -51,9 +51,9 @@ function About({}: Props) {
           <p className="mb-2 text-left">
             Firstly, thanks for stopping by!
             <br />
-            So, why are you here? Well, let&apos;s get the boring bit out of
-            the way... my professional career up to now has predominantly been
-            in the technology space within a sales and managerial/client-facing
+            So, why are you here? Well, let&apos;s get the boring bit out of the
+            way... my professional career up to now has predominantly been in
+            the technology space within a sales and managerial/client-facing
             capacity, where I&apos;ve had the pleasure of working with some
             amazing companies across a diverse collection of industries.
             I&apos;ve been lucky enough to work and learn from some of the best
@@ -64,10 +64,10 @@ function About({}: Props) {
             I&apos;ve always had a passion for creativity from a very young age,
             which stems from a fascination of the way things work. As a kid, and
             outside of the usual silly things kids get up to, I would often
-            spend my time doodling, painting, playing instruments, building model
-            planes, clay* sculpting, cooking, baking, or just trying to be the next
-            Paul Daniels - yes I did have the set. Ultimately, whatever it was
-            that I was doing, it fundamentaly involved{" "}
+            spend my time doodling, painting, playing instruments, building
+            model planes, clay* sculpting, cooking, baking, or just trying to be
+            the next Paul Daniels - yes I did have the set. Ultimately, whatever
+            it was that I was doing, it fundamentaly involved{" "}
             <em>
               <strong>making</strong>
             </em>{" "}
@@ -96,9 +96,9 @@ function About({}: Props) {
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
             weightlifting, trading, settling in to a good book or a good movie,
-            playing basketball and tennis or cleaning up at pool, as well as delving
-            in to all things old-school Hiphop - especially live. Most of all...
-            I LOVE to see the world.
+            playing basketball and tennis or cleaning up at pool, as well as
+            delving in to all things old-school Hiphop - especially live. Most
+            of all, I LOVE to see the world.
             <br />
             <br />
             I&apos;ll wrap it up here and leave you with my website, where
