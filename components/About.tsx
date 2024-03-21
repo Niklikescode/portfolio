@@ -49,8 +49,9 @@ function About({}: Props) {
 
         <div className=" overflow-y-scroll scrollbar-thin h-72 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
           <p className="mb-2 text-left">
-            Firstly, thanks for stopping by! I guess a good place to begin would
-            be to explain why I&apos;m here. Let&apos;s get the boring bit out
+            Firstly, thanks for stopping by!
+            <br />
+            So, why are you here? Well, let&apos;s get the boring bit out of
             the way... my professional career up to now has predominantly been
             in the technology space within a sales and managerial/client-facing
             capacity, where I&apos;ve had the pleasure of working with some
@@ -63,8 +64,8 @@ function About({}: Props) {
             I&apos;ve always had a passion for creativity from a very young age,
             which stems from a fascination of the way things work. As a kid, and
             outside of the usual silly things kids get up to, I would often
-            spend my time drawing, painting, playing instruments, building model
-            planes, clay modeling*, cooking, baking or trying to be the next
+            spend my time doodling, painting, playing instruments, building model
+            planes, clay* sculpting, cooking, baking, or just trying to be the next
             Paul Daniels - yes I did have the set. Ultimately, whatever it was
             that I was doing, it fundamentaly involved{" "}
             <em>
@@ -107,7 +108,7 @@ function About({}: Props) {
             <br />
             If you do want to chat, feel free to drop me a message or give me a
             shout through the contact space below. I&apos;d love to hear from
-            you!
+            you. Also your feedback on the website would be greatly appreciated!
             <br />
             <br />*
             <em>
