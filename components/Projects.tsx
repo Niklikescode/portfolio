@@ -84,7 +84,7 @@ function Projects({}: Props) {
                 {project.name}
               </h4>
 
-              <p className=" text-left md:text-left text-1xl mt-1 overflow-y-scroll scrollbar-thin h-28 2xl:h-40 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
+              <p className=" text-left md:text-left text-1xl mt-1 overflow-y-scroll scrollbar-thin h-40 2xl:h-40 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
                 {project.description}
               </p>
             </div>
