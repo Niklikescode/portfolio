@@ -54,7 +54,7 @@ function Projects({}: Props) {
         {projects.map((project, index) => (
           <div
             key={project.name} // Use a unique key for each project
-            className="w-screen flex-shrink-0 snap-center flex flex-col  items-center justify-center p-10 md:p-44 h-screen"
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5  items-center justify-center p-10 md:p-44 h-screen"
           >
             {/* existing code for image and project details */}
             <motion.img
@@ -84,7 +84,7 @@ function Projects({}: Props) {
                 {project.name}
               </h4>
 
-              <p className=" text-left md:text-left text-1xl mt-1 overflow-y-scroll scrollbar-thin h-32 2xl:h-40 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
+              <p className=" text-left md:text-left text-1xl mt-1 overflow-y-scroll scrollbar-thin h-64 2xl:h-40 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 ">
                 {project.description}
               </p>
             </div>
