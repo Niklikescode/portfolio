@@ -18,7 +18,7 @@ function Projects({}: Props) {
     {
       name: " Bubble",
       description:
-        "A School of Code project, and as part of a team of 5 with 3.5 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format. Together with using our newly-acquired knowlege from the Bootcamp, this was acheived through adhering to a solid Agile Manifesto, extensive planning and research through to wireframing and prototyping. and continuous collaboration. Click on the YouTube icon above to view an in-depth breakdown on how my team approached this project!",
+        "A School of Code project, and as part of a team of 5 with 3.5 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format. Together with using our newly-acquired knowlege from the Bootcamp, this was acheived through adhering to a solid Agile Manifesto, extensive planning and research through to wireframing and prototyping, and continuous collaboration. Click on the YouTube icon above to view an in-depth breakdown on how my team approached this project!",
       image: "bubblecanva2.png",
     },
     { 
