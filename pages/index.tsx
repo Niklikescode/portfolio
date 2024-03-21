@@ -53,9 +53,9 @@ export default function Home() {
       </section>
 
       <Link href="#hero">
-        <footer className="fixed p-1 bottom-5 w-full cursor-pointer">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <Image className="h-4 w-4 xl:h-8 xl:w-8 rounded-full filter grayscale  hover:grayscale-0 cursor-pointer" 
+            <Image className="h-4 w-4 xl:h-5 xl:w-5 rounded-full filter grayscale  hover:grayscale-0 cursor-pointer" 
             src="/nik_128.png" width={100} height={100} alt="logo" />
           </div>
         </footer>
