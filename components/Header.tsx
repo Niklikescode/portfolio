@@ -49,6 +49,13 @@ function Header({}: Props) {
           fgColor="grey"
           bgColor="transparent"
         />
+      <SocialIcon
+     
+          url="https://drive.google.com/file/d/19FcJPf8R7Bg3uhz4lfa8C6ECh5K54Wej/view?usp=drive_link"
+          fgColor="grey"
+          bgColor="transparent"
+        />
+
      </motion.div>
 
 <Link href="#contact">
