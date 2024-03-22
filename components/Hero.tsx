@@ -5,6 +5,10 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
 import nik from "../public/nik.jpg";
+import nik2 from "../public/nik2.jpg";
+import nik3 from "../public/nik3.png";
+import barbs1 from "../public/barbs1.jpg";
+import barbs2 from "../public/barbs2.jpg";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
@@ -30,8 +34,8 @@ function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-6 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        className="relative rounded-full h-44 w-44 mx-auto object-cover"
-        src={nik}
+        className="relative rounded-full h-44 w-44 mx-auto object-cover grayscale"
+        src={nik3}
         alt="Profile pic of Nik"
       />
       <div className="z-20">
