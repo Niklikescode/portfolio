@@ -22,7 +22,7 @@ export default function Home() {
     <div className=" text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-track-gray-400/20 scrollbar-thumb-[#e59500]/80 scrollbar-thin ">
       
       <Head>
-        <title>Nikhil&apos;s World</title>
+        <title>Nikhil&apos;s Space</title>
       </Head>
 
       <Header />
