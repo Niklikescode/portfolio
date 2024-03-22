@@ -7,6 +7,7 @@ import Image from "next/image";
 import nik from "../public/nik.jpg";
 import nik2 from "../public/nik2.jpg";
 import nik3 from "../public/nik3.png";
+import nik4 from "../public/nik4.png";
 import barbs1 from "../public/barbs1.jpg";
 import barbs2 from "../public/barbs2.jpg";
 import Link from "next/link";
@@ -35,7 +36,7 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <Image
         className="relative rounded-full h-44 w-44 mx-auto object-cover grayscale"
-        src={nik3}
+        src={nik4}
         alt="Profile pic of Nik"
       />
       <div className="z-20">
