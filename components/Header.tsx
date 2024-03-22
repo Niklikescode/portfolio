@@ -22,7 +22,7 @@ function Header({}: Props) {
       animate={{
         x: 0,
         opacity: 1,
-        scale: 0.8
+        scale: 0.7
       }}
       transition={{
         duration: 1.5,
@@ -69,7 +69,7 @@ function Header({}: Props) {
       animate={{
         x: 0,
         opacity: 1,
-        scale: 0.8
+        scale: 0.7
       }}
       transition={{
         duration: 1.5,
