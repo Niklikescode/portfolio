@@ -35,7 +35,7 @@ function About({}: Props) {
       >
         <Image
           src={diving}
-          className="-mb-24 md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-lg md:w-full md:h-full 2xl:w-[5000px] 2xl:h-[500px] mt-12 md:mt-0"
+          className="-mb-24 md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-lg lg:w-full lg:h-full 2xl:w-[5000px] 2xl:h-[500px] mt-12 md:mt-0"
           alt="Me diving"
         />
       </motion.div>
