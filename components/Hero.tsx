@@ -8,11 +8,11 @@ import nik from "../public/nik.jpg";
 import nik2 from "../public/nik2.jpg";
 import nik3 from "../public/nik3.png";
 import nik4 from "../public/nik4.png";
+import nik5 from "../public/nik5.png";
 import barbs1 from "../public/barbs1.jpg";
 import barbs2 from "../public/barbs2.jpg";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-
 
 type Props = {};
 
@@ -36,39 +36,38 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <Image
         className="relative rounded-full h-44 w-44 mx-auto object-cover grayscale"
-        src={nik4}
+        src={nik5}
         alt="Profile pic of Nik"
       />
       <div className="z-20">
-        <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">Software Developer</h2>
+        <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">
+          Software Developer
+        </h2>
         <h1 className="text-2xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="purple" />
         </h1>
 
         <div className=" pt-2 sm:pt-5">
-
           <Link href="#about">
-          <button className="heroButton mr-1">About</button>
+            <button className="heroButton mr-1">About</button>
           </Link>
 
           <Link href="#experience">
-          <button className="heroButton mr-1">Experience</button>
+            <button className="heroButton mr-1">Experience</button>
           </Link>
 
           <Link href="#skills">
-          <button className="heroButton mr-1">Skills</button>
+            <button className="heroButton mr-1">Skills</button>
           </Link>
 
           <Link href="#projects">
-          <button className="heroButton mr-1">Projects</button>
+            <button className="heroButton mr-1">Projects</button>
           </Link>
-
         </div>
-
       </div>
     </div>
   );
 }
 
-export default Hero
+export default Hero;
