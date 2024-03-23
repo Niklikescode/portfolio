@@ -13,6 +13,7 @@ import barbs1 from "../public/barbs1.jpg";
 import barbs2 from "../public/barbs2.jpg";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -34,9 +35,14 @@ function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-6 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <Image
+      <motion.img
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 5}}
         className="relative rounded-full h-44 w-44 mx-auto object-cover grayscale"
-        src={nik5}
+        src={nik5.src}
         alt="Profile pic of Nik"
       />
       <div className="z-20">
