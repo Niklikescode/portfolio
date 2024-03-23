@@ -16,10 +16,11 @@ function Skill({ image, directionLeft }: Props) {
           
           opacity: 0,
         }}
-       
+
+       transition={{ duration: 1 }}
             whileInView={{ opacity: 1, x: 0, rotate: 360}}
-            transition={{ duration: 1 }}
-            animate={{  }}
+            
+            // animate={{  }}
             viewport={{ once: true }}
     
         src={image}
