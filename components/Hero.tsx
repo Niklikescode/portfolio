@@ -19,12 +19,12 @@ type Props = {};
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "< Hey, I'm Nikhil",
-      "you can call me Nik",
-      "I'm on a mission",
-      "to transform my life",
-      "So do feel free",
-      "to stick around! />",
+      "< HEY, I'M NIKHIL",
+      "YOU CAN CALL ME NIK",
+      "I'M ON A MISSION",
+      "TO TRANSFORM MY LIFE",
+      "SO DO FEEL FREE",
+      "TO STICK AROUND! />",
     ],
 
     loop: true,
