@@ -17,9 +17,10 @@ function Skill({ image, directionLeft }: Props) {
           opacity: 0,
         }}
        
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.5 }}
-            animate={{ rotate: 360 }}
+            whileInView={{ opacity: 1, x: 0, rotate: 360}}
+            transition={{ duration: 1 }}
+            animate={{  }}
+            viewport={{ once: true }}
     
         src={image}
         className=" rounded-full border border-gray-500 object-cover w-14 h-14  2xl:w-32 2xl:h-32 filter group-hover:grayscale    "
