@@ -90,7 +90,7 @@ function Projects({}: Props) {
 
       {/* existing code for the background decoration */}
 
-      <div className="w-full absolute top-[25%] bg-[#086788]/30 left-0 h-[400px] lg:h-[500px] -skew-y-12 uppercase tracking-[19px] lg:tracking-[50px] text-gray-500 text-[50px] lg:text-5xl">
+      <div className="w-full absolute top-[25%] bg-[#086788]/30 left-0 h-[450px] lg:h-[500px] -skew-y-12 uppercase tracking-[19px] lg:tracking-[50px] text-gray-500 text-[50px] lg:text-5xl">
         {" "}
         projects
       </div>
