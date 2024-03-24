@@ -16,19 +16,19 @@ function Projects({}: Props) {
       name: " Bubble",
       description:
         "A School of Code project, and as part of a team of 5 with 3.5 weeks to produce from concept to deployment. Bubble is a tablet app designed to aid children's wellbeing by helping them reflect and understand their thoughts and feelings. Both adults and children can use Bubble! Children are encouraged to log their emotions and optionally engage in a breathing exercise whilst adults have access to view their little one's logs in both graphical and written format. Together with using our newly-acquired knowlege from the Bootcamp, this was acheived through adhering to a solid Agile Manifesto, extensive planning and research through to wireframing and prototyping, and continuous collaboration. Click on the YouTube icon above to view an in-depth breakdown on how my team approached this project!",
-      image: "bubblecanva2.png",
+      image: "bubblecanva3.png",
     },
     {
       name: " Bottled Courage",
       description:
         "A School of Code project, and as part of a team of 6 with 1 week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the course of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
-      image: "bottledcourage70.png",
+      image: "bottledcouragenew.png",
     },
     {
       name: " Portfolio Website",
       description:
         "The website you're on right now! I built this website using Next.js, Tailwind CSS and Framer Motion, as well as as some design ideas from Canva and various NPM packages and colour palettes. I wanted to create a website that was both visually appealing and interactive, whilst showcasing my skills and projects in a unique way. I've learned a great deal from this project by utilising the knowledge gained from the School of Code bootcamp as well as using the 'just in time' approach to learning (kudos Chris Meah!). I'm really happy with the results so far but there are many areas that require tweaking. I'm excited to see how this website evolves over time.",
-      image: "personalwebsite.png",
+      image: "personalwebsite2.png",
     },
     {
       name: " Fitness App ",
@@ -55,7 +55,7 @@ function Projects({}: Props) {
           >
             {/* existing code for image and project details */}
             <motion.img
-              className=" object-fill object-center mt-8 md:w-[700px] md:h-[600px]"
+              className=" object-fill object-center mt-8 md:w-[800px] md:h-[600px]"
               //  existing image animation props ...
               initial={{
                 y: -300,
