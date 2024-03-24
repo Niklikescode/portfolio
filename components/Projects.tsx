@@ -34,7 +34,7 @@ function Projects({}: Props) {
       name: " Fitness App ",
       description:
         "I wanted to create something that closely alignes with my interests and hobbies. I'm a big fan of weightlifting and I wanted to create an app that would help people track their workouts and progress. I also wanted to include a feature that would generate a workout plan based on the user's goals and preferences. I'm still in the early stages of this project but I'm excited to see where it goes. I'm also open to collaborating with other developers on this project. If you're interested, feel free to reach out to me!",
-      image: "comingsoon3.png",
+      image: "comingsoonnew.png",
     },
   ];
 
