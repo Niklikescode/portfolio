@@ -88,16 +88,16 @@ function About({}: Props) {
             Since graduating and being released back into the world now armed
             with a whole new skillset, the aim is to build some cool, useful and
             hopefully lucrative stuff whilst also growing my skills with the
-            right people - especially in the Bitcoin, blockchain and wider crypto arena.
-            I&apos;m also working on a few personal projects which I&apos;m
-            hoping to share with you soon!
+            right people - especially in the Bitcoin, blockchain and wider
+            crypto arena. I&apos;m also working on a few personal projects which
+            I&apos;m hoping to share with you soon!
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
             weightlifting, trading, settling in to a good book or a good movie,
-            playing basketball and tennis or cleaning up at pool, as well as
-            delving in to all things old-school Hiphop - especially live. Most
-            of all, I LOVE to see the world.
+            playing basketball and tennis or destroying people at pool. Aside
+            from all types of music, I&apos;m a huge fan of old-school Hiphop -
+            especially live. Most of all, I LOVE to see the world.
             <br />
             <br />
             I&apos;ll wrap it up here and leave you with my website, where
