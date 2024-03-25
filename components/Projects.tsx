@@ -21,7 +21,7 @@ function Projects({}: Props) {
     {
       name: " Bottled Courage",
       description:
-        "A School of Code project, and as part of a team of 6 with 1 week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the course of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp.",
+        "A School of Code project, and as part of a team of 6 with 1 week to produce from concept to deployment. My team believed there are many mental issues that stem from a lack of confidence during the course of our bootcamp. This can be a lack of self-esteem, morale, isolation and imposter syndrome. We designed an app that helps educate, raise awareness and combat the prevalance of this on the bootcamp. The idea was simple - users can send an anonymous message of the challenges they are facing and release it out into the sea of other messages. Users can also comment on other messages which would be randomly generated and offer encouragement. The ultimate aim was to create a safe space for users to share their thoughts and feelings without fear of judgement and to help build a sense of community and support.",
       image: "bottledcouragenew.png",
     },
     {
@@ -55,7 +55,7 @@ function Projects({}: Props) {
           >
             {/* existing code for image and project details */}
             <motion.img
-              className=" object-fill object-center mt-8 md:w-[800px] md:h-[600px]"
+              className=" object-fill object-center mt-8 md:w-[600px] md:h-[600px]"
               //  existing image animation props ...
               initial={{
                 y: -300,

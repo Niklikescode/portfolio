@@ -17,7 +17,7 @@ function Skill({ image, directionLeft }: Props) {
           opacity: 0,
         }}
 
-       transition={{ duration: 1 }}
+       transition={{ duration: .7 }}
             whileInView={{ opacity: 1, x: 0, rotate: 360}}
             
             // animate={{  }}
