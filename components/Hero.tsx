@@ -24,8 +24,8 @@ function Hero({}: Props) {
       "YOU CAN CALL ME NIK",
       "WELCOME TO MY SITE",
       "SHOWCASING ME!",
-      "DO FEEL FREE",
-      "TO EXPLORE AROUND />",
+      "FEEL FREE TO EXPLORE />",
+      
       
     ],
 

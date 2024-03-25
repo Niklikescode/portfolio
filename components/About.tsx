@@ -51,9 +51,9 @@ function About({}: Props) {
           <p className="mb-2 text-left">
             Firstly, thanks for stopping by!
             <br />
-            So, why are you here? Well, let&apos;s get the boring bit out of the
-            way... my professional career up to now has predominantly been in
-            the technology space within a sales and managerial/client-facing
+            <br />
+            My professional career up to now has predominantly been in the
+            technology space within a sales and managerial/client-facing
             capacity, where I&apos;ve had the pleasure of working with some
             amazing companies across a diverse collection of industries.
             I&apos;ve been lucky enough to work and learn from some of the best
@@ -67,9 +67,8 @@ function About({}: Props) {
             spend my time doodling, painting, playing instruments, building
             model planes, clay* sculpting, cooking, baking, or just trying to be
             the next Paul Daniels - yes I did have the set. Ultimately, whatever
-            it was that I was doing, it fundamentaly involved{" "}
-            <em>
-              <strong>making</strong>
+            it was that I was doing, it fundamentaly involved <em>
+              making
             </em>{" "}
             something. As such I&apos;ve always been drawn to the idea of
             creating something from nothing, and I&apos;ve always been
@@ -89,9 +88,9 @@ function About({}: Props) {
             Since graduating and being released back into the world now armed
             with a whole new skillset, the aim is to build some cool, useful and
             hopefully lucrative stuff whilst also growing my skills with the
-            right people - preferably in the crypto and blockchain space but not
-            limited to. I&apos;m also working on a few personal projects which
-            I&apos;m hoping to share with you soon!
+            right people - especially in the Bitcoin, blockchain and wider crypto arena.
+            I&apos;m also working on a few personal projects which I&apos;m
+            hoping to share with you soon!
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
