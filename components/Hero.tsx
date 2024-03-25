@@ -22,10 +22,11 @@ function Hero({}: Props) {
     words: [
       "< HEY, I'M NIKHIL",
       "YOU CAN CALL ME NIK",
-      "I'M ON A MISSION",
-      "TO TRANSFORM MY LIFE",
-      "SO DO FEEL FREE",
-      "TO STICK AROUND! />",
+      "WELCOME TO MY SITE",
+      "SHOWCASING ME!",
+      "DO FEEL FREE",
+      "TO EXPLORE AROUND />",
+      
     ],
 
     loop: true,
