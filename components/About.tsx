@@ -88,9 +88,9 @@ function About({}: Props) {
             Since graduating and being released back into the world now armed
             with a whole new skillset, the aim is to build some cool, useful and
             hopefully lucrative stuff whilst also growing my skills with the
-            right people - especially in the Bitcoin, blockchain and wider
-            crypto arena. I&apos;m also working on a few personal projects which
-            I&apos;m hoping to share with you soon!
+            right people - especially in the Bitcoin space. I&apos;m also
+            working on a few personal projects which I&apos;m hoping to share
+            with you soon!
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
@@ -106,7 +106,7 @@ function About({}: Props) {
             <br />
             <br />
             If you do want to chat, feel free to drop me a message or give me a
-            shout through the contact space below. I&apos;d love to hear from
+            shout through the contact page below. I&apos;d love to hear from
             you. Also your feedback on the website would be greatly appreciated!
             <br />
             <br />*
