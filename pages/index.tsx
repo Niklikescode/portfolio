@@ -61,10 +61,10 @@ export default function Home() {
         </footer>
       </Link>
 
-      <section className="">
+      <section className="h-screen">
         <Starfield />
       </section>
-      
+
     </div>
   );
 }
