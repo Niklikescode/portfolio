@@ -19,7 +19,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className=" text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar-track-gray-400/20 scrollbar-thumb-[#e59500]/80 scrollbar-thin ">
+    <div className=" text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-track-gray-400/20 scrollbar-thumb-[#e59500]/80 scrollbar-thin ">
       
       
 
@@ -69,6 +69,7 @@ export default function Home() {
         starColor={[255, 255, 255]}
         speedFactor={0.05}
         backgroundColor="black"
+        z-index={0}
       />
       
     </div>
