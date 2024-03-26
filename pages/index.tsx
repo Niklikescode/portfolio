@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Head from "next/head";
@@ -10,19 +9,14 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
-import nik_1024 from "@nik_1024.png"
-import Starfield from "@/components/Starfield"
+import nik_1024 from "@nik_1024.png";
+import Starfield from "@/components/Starfield";
 
 const inter = Inter({ subsets: ["latin"] });
-
-
 
 export default function Home() {
   return (
     <div className=" text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-track-gray-400/20 scrollbar-thumb-[#e59500]/80 scrollbar-thin ">
-      
-      
-
       <Head>
         <title>Nikhil&apos;s Space</title>
       </Head>
@@ -49,7 +43,6 @@ export default function Home() {
         <Projects />
       </section>
 
-     
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
@@ -57,24 +50,21 @@ export default function Home() {
       <Link href="#hero">
         <footer className="fixed bottom-2 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <Image className="h-4 w-4 xl:h-5 xl:w-5 rounded-full filter grayscale  hover:grayscale-0 cursor-pointer" 
-            src="/nik_128.png" width={100} height={100} alt="logo" />
+            <Image
+              className="h-4 w-4 xl:h-5 xl:w-5 rounded-full filter grayscale  hover:grayscale-0 cursor-pointer"
+              src="/nik_128.png"
+              width={100}
+              height={100}
+              alt="logo"
+            />
           </div>
         </footer>
       </Link>
 
-      <div className="App">
-      <Starfield
-        starCount={5000}
-        starColor={[255, 255, 255]}
-        speedFactor={0.05}
-        backgroundColor="black"
-        z-index={0}
-      />
+      <section className="">
+        <Starfield />
+      </section>
       
-    </div>
-      
-
     </div>
   );
 }
