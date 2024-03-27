@@ -15,7 +15,9 @@
 
   @layer base {
     html {
-        @apply bg-black;
+        @apply bg-[#161616]; 
     }
 }
 }   
+
+/* the @layer base corrected the issue with the background rendering white right before the starlight animation rendered - causing safari browser to just stay white. */
