@@ -6,10 +6,10 @@ This will evolve over time so do come back now and then... 😉
 
 ## Features 📱
 
-- A Header linking GitHub, LinkedIn, Twitter, YouTube, CV, and Contact page
+- A Header links GitHub, LinkedIn, Twitter, YouTube, CV, and Contact page
 - Homepage links to other pages in the website
 - Snap-screen user experience when navigating between pages
-- Skill level when hovering over skill icons (in development)
+- Skill level shows when hovering over skill icons (in development)
 - Contact page links to the user's default email provider
 - Footer icon to bring you back to the homepage 
 - Various use of animation throughout the site
