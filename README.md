@@ -1,40 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# My Portfolio Website
 
-First, run the development server:
+This is my website showcasing my experience to date, as well as the project's I've been part of or created myself, along with a little bit about me!
+This will evolve over time so do come back now and then... 😉
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features 📱
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- A Header linking GitHub, LinkedIn, Twitter, YouTube, CV, and Contact page
+- Homepage links to other pages in the website
+- Snap-screen user experience when navigating between pages
+- Skill level when hovering over skill icons (in development)
+- Contact page links to the user's default email provider
+- Footer icon to bring you back to the homepage 
+- Various use of animation throughout the site
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tech Stack 🛠️
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Canva and experimenting with colour palettes
+- Packages/Dependences - Hero Icons, Hook Form, Simple Typewriter, Social Icons, Starfield, Tailwind Scrollbar, Styled Components
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Challenges 🤔
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This was my first ever attempt at creating a personal website, and as such it came with many challenges as most of the time, together with my learnings from the School of Code bootcamp, I was learning as I went along.
 
-## Learn More
+The bigest issues I faced were either code/syntax related or the general placement of where code should be, package complications or screen responsiveness problems (which I'm still polishing). Apple's native Safari browser did cause a major hault in progress as it was not rendering the animated starlight background, and only a white background. After several attempts (and commits) at trying to solve this issue, I dropped the starlight background to implement a video background instead - where I struggled to pull in mp4 files into the project. I was hitting roadblock after roadblock.
 
-To learn more about Next.js, take a look at the following resources:
+Thankfully, and all thanks to Chris Meah's guide on Systematic Thinking, I managed to find a fix to the original starlight background through breaking down the problem and abstracting away.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Lessons Learned ✍🏽
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+It was always my intention to treat this portfolio site as a project in itself, whereby I've learned a tremendous amount which will directly serve my continued progress in future projects. 
 
-## Deploy on Vercel
+Key takeaways:
+- Whilst I took inspiration (to an extent) from a YouTuber and developer, I made sure that I completely understood every element of the build process, as well as implementing my own ideas and creativity.
+- I originally planned to include a headless CMS, but decided against it as working with raw code only contributes to my learning.
+- Don't get too passionate about something that is not working and taking too much time to solve. Although there's always a solution, is it worth the trade off in time?
+- Ensure NPM packages build correclty into your project.
+- Be as descriptive as possible in commits so you know exactly where to refer/revert if needed.
+- Not all browsers render code the same, and inspecting responsivness on one browser isn't a universal representation.
+- Approach roadblocks systematically.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Future Scope 🤖
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- I'll be implementing an email server into the site instead of it currently sending the user to their default email provider.
+- Adding a Certificates page
+- Adding a photo reel (just for fun)
+
+## Acknowledgements 👏🏽
+
+ - Sonny Sangha for the design inspiration https://www.youtube.com/@SonnySangha
+ - Jay at Desingly for the Starlight animated background https://dev.to/designly/how-to-create-an-animated-space-stars-background-effect-in-react-nextjs-30p5
+ - The School of Code for teaching me the fundamentals in Full-Stack Development https://www.schoolofcode.co.uk/
+ - Chris Meah's approach to Systematic Thinking https://socnotes.notion.site/Systematic-Thinking-cece6b637bd148ddbe6c45fef0146708

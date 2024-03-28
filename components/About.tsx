@@ -107,7 +107,7 @@ function About({}: Props) {
             me a shout through the contact page below. I&apos;d love to hear
             from you!
             <br />
-             Feedback will also be greatly appreciated.
+            Feedback will also be greatly appreciated.
             <br />
             <br />*
             <em>
