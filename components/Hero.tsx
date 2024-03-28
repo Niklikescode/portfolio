@@ -47,10 +47,10 @@ function Hero({}: Props) {
         alt="Profile pic of Nik"
       />
       <div className="z-20">
-      <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">
+      <h2 className=" uppercase text-gray-500 pb-1 tracking-[9px] sm:tracking-[12px]">
           brand executive
         </h2>
-      <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">
+      <h2 className=" uppercase text-gray-500 pb-1 tracking-[9px] sm:tracking-[12px]">
           Sales trainer
         </h2>
         <h2 className=" uppercase text-gray-500 pb-6 tracking-[9px] sm:tracking-[12px]">
