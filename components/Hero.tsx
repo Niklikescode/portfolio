@@ -48,7 +48,7 @@ function Hero({}: Props) {
       />
       <div className="z-20">
       <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">
-          sales professional
+          brand executive
         </h2>
       <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">
           Sales trainer
