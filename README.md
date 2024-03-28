@@ -53,6 +53,6 @@ Key takeaways:
 ## Acknowledgements 👏🏽
 
  - Sonny Sangha for the design inspiration https://www.youtube.com/@SonnySangha
- - Jay at Desingly for the Starlight animated background https://dev.to/designly/how-to-create-an-animated-space-stars-background-effect-in-react-nextjs-30p5
+ - Jay at Designly for the Starlight animated background https://dev.to/designly/how-to-create-an-animated-space-stars-background-effect-in-react-nextjs-30p5
  - The School of Code for teaching me the fundamentals in Full-Stack Development https://www.schoolofcode.co.uk/
  - Chris Meah's approach to Systematic Thinking https://socnotes.notion.site/Systematic-Thinking-cece6b637bd148ddbe6c45fef0146708
