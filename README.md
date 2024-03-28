@@ -27,7 +27,7 @@ This will evolve over time so do come back now and then... 😉
 
 This was my first ever attempt at creating a personal website, and as such it came with many challenges as most of the time, together with my learnings from the School of Code bootcamp, I was learning as I went along.
 
-The bigest issues I faced were either code/syntax related or the general placement of where code should be, package complications or screen responsiveness problems (which I'm still polishing). Apple's native Safari browser did cause a major hault in progress as it was not rendering the animated starlight background, and only a white background. After several attempts (and commits) at trying to solve this issue, I dropped the starlight background to implement a video background instead - where I struggled to pull in mp4 files into the project. I was hitting roadblock after roadblock.
+The biggest issues I faced were either code/syntax related or the general placement of where code should be, package complications or screen responsiveness problems (which I'm still polishing). Apple's native Safari browser did cause a major hault in progress as it was not rendering the animated starlight background, and only a white background. After several attempts (and commits) at trying to solve this issue, I dropped the starlight background altogether to implement a video background instead - where I struggled to pull in mp4 files into the project. I was hitting roadblock after roadblock.
 
 Thankfully, and all thanks to Chris Meah's guide on Systematic Thinking, I managed to find a fix to the original starlight background through breaking down the problem and abstracting away.
 
