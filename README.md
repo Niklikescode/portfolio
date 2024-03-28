@@ -36,7 +36,7 @@ Thankfully, and all thanks to Chris Meah's guide on Systematic Thinking, I manag
 It was always my intention to treat this portfolio site as a project in itself, whereby I've learned a tremendous amount which will directly serve my continued progress in future projects. 
 
 Key takeaways:
-- Whilst I took inspiration (to an extent) from a YouTuber and developer, I made sure that I completely understood every element of the build process, as well as implementing my own ideas and creativity.
+- Whilst I took inspiration on the base layout from a Developer tutorial, I made sure that I completely understood every element of the build process as well as implementing my own ideas and creativity.
 - I originally planned to include a headless CMS, but decided against it as working with raw code only contributes to my learning.
 - Don't get too passionate about something that is not working and taking too much time to solve. Although there's always a solution, is it worth the trade off in time.
 - Ensure packages/dependencies build correctly into your project.
