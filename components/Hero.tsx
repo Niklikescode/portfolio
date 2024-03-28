@@ -53,7 +53,7 @@ function Hero({}: Props) {
       <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">
           Sales trainer
         </h2>
-        <h2 className=" uppercase text-gray-500 pb-2 tracking-[9px] sm:tracking-[12px]">
+        <h2 className=" uppercase text-gray-500 pb-6 tracking-[9px] sm:tracking-[12px]">
           Software Developer
         </h2>
         <h1 className="text-2xl lg:text-5xl font-semibold px-10">
