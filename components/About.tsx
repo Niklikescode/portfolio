@@ -62,11 +62,10 @@ function About({}: Props) {
             <br />
             <br />
             I&apos;ve always had a passion for creativity from a very young age,
-            which stems from a fascination of the way things work. As a kid, and
-            outside of the usual silly things kids get up to, I would often
+            which stems from a fascination of the way things work. Beyond the typical childhood antics, I would often
             spend my time doodling, painting, playing instruments, building
             model planes, clay* sculpting, cooking, baking, or just trying to be
-            the next Paul Daniels - yes I did have the set. Ultimately, whatever
+            the next Paul Daniels - I had the set. Ultimately, whatever
             it was that I was doing, it fundamentaly involved <em>
               making
             </em>{" "}
@@ -88,16 +87,15 @@ function About({}: Props) {
             Since graduating and being released back into the world now armed
             with a whole new skillset, the aim is to build some cool, useful and
             hopefully lucrative stuff whilst also growing my skills with the
-            right people - especially in the Bitcoin or wider crypto space. I&apos;m also
+            right people - especially in the AI, Bitcoin or wider crypto space. I&apos;m also
             working on a few personal projects which I&apos;m hoping to share
             with you soon!
             <br />
             <br />
             Outside of all this, you&apos;ll often find me in the kitchen,
-            weightlifting, trading, settling in to a good book or a good movie,
-            playing basketball and tennis or destroying people at pool. Aside
-            from all types of music, I&apos;m a huge fan of old-school Hiphop -
-            especially live. Most of all, I LOVE to see the world.
+            weightlifting, trading, settling in to a good book or movie,
+            playing basketball and tennis or generally dominating the pool table. As for music, aside from all genres, I&apos;m quite the old-school Hip Hop junkie -
+            especially live. Most of all, I LOVE travelling the world.
             <br />
             <br />
             I&apos;ll wrap it up here and leave you with my website, where
@@ -105,7 +103,7 @@ function About({}: Props) {
             single line of code in my life...
             <br />
             <br />
-            If you do want to chat, feel free to drop me a message or give me a
+            If you&apos;d like to chat, feel free to drop me a message or give me a
             shout through the contact page below. I&apos;d love to hear from
             you. Also your feedback on the website would be greatly appreciated!
             <br />
