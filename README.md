@@ -38,8 +38,8 @@ It was always my intention to treat this portfolio site as a project in itself, 
 Key takeaways:
 - Whilst I took inspiration (to an extent) from a YouTuber and developer, I made sure that I completely understood every element of the build process, as well as implementing my own ideas and creativity.
 - I originally planned to include a headless CMS, but decided against it as working with raw code only contributes to my learning.
-- Don't get too passionate about something that is not working and taking too much time to solve. Although there's always a solution, is it worth the trade off in time?
-- Ensure NPM packages build correclty into your project.
+- Don't get too passionate about something that is not working and taking too much time to solve. Although there's always a solution, is it worth the trade off in time.
+- Ensure packages/dependencies build correctly into your project.
 - Be as descriptive as possible in commits so you know exactly where to refer/revert if needed.
 - Not all browsers render code the same, and inspecting responsivness on one browser isn't a universal representation.
 - Approach roadblocks systematically.
