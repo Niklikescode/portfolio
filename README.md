@@ -1,5 +1,7 @@
-
 # My Portfolio Website
+![personalwebsite5](https://github.com/Niklikescode/portfolio/assets/142637426/5e51eb10-ed66-4f92-9752-57989f18a645)
+
+
 
 This is my website showcasing my experience to date, as well as the project's I've been part of or created myself, along with a little bit about me!
 This will evolve over time so do come back now and then... 😉
