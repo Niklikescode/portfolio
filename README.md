@@ -4,6 +4,7 @@
 This is my website showcasing my experience to date, as well as the projects I've been part of or created myself, along with a little bit about me!
 This will evolve over time so do come back now and then... 😉
 
+
 ## Features 📱
 
 - A Header links GitHub, LinkedIn, Twitter, YouTube, CV, and Contact page
@@ -14,6 +15,7 @@ This will evolve over time so do come back now and then... 😉
 - Footer icon to bring you back to the homepage on click
 - Various use of animation throughout the site
 
+
 ## Tech Stack 🛠️
 
 - Next.js
@@ -23,6 +25,7 @@ This will evolve over time so do come back now and then... 😉
 - Canva and experimenting with colour palettes
 - Packages/Dependences - Hero Icons, Hook Form, Simple Typewriter, Social Icons, Starfield, Tailwind Scrollbar, Styled Components
 
+
 ## Challenges 🤔
 
 This was my first ever attempt at creating a personal website, and as such it came with many challenges as most of the time, together with my learnings from the School of Code bootcamp, I was learning as I went along.
@@ -30,6 +33,7 @@ This was my first ever attempt at creating a personal website, and as such it ca
 The biggest issues I faced were either code/syntax related or the general placement of where code should be, package complications due to deprecation (due to following out of date tutorials on certain aspects of the site), or screen responsiveness problems (which I'm still polishing). Apple's native Safari browser did cause a major hault in progress as it was not rendering the animated starlight background, and only a white background. After several attempts (and commits) at trying to solve this issue, I dropped the starlight background altogether to implement a video background instead - where I struggled to pull in mp4 files into the project. I was hitting roadblock after roadblock.
 
 Thankfully, and all thanks to Chris Meah's guide on Systematic Thinking (see aknowledgements), I managed to find a fix to the original starlight background through breaking down the problem and abstracting away.
+
 
 ## Lessons Learned ✍🏽
 
@@ -48,12 +52,14 @@ Whilst the following is something I absolutely do not condone - I completed this
 
 This is silly. Never do this. Always ask for help.
 
+
 ## Future Scope 🤖
 
 - I'll be implementing an email server into the site instead of it currently sending the user to their default email provider.
 - Adding a Certificates page
 - Adding a photo reel (just for fun)
 - Adding a game (again, just for fun)
+
 
 ## Acknowledgements 👏🏽
 
