@@ -11,7 +11,7 @@ This will evolve over time so do come back now and then... 😉
 - Snap-screen user experience when navigating between pages
 - Skill level shows when hovering over skill icons (in development)
 - Contact page links to the user's default email provider
-- Footer icon to bring you back to the homepage 
+- Footer icon to bring you back to the homepage on click
 - Various use of animation throughout the site
 
 ## Tech Stack 🛠️
@@ -27,18 +27,18 @@ This will evolve over time so do come back now and then... 😉
 
 This was my first ever attempt at creating a personal website, and as such it came with many challenges as most of the time, together with my learnings from the School of Code bootcamp, I was learning as I went along.
 
-The biggest issues I faced were either code/syntax related or the general placement of where code should be, package complications due to deprecation, or screen responsiveness problems (which I'm still polishing). Apple's native Safari browser did cause a major hault in progress as it was not rendering the animated starlight background, and only a white background. After several attempts (and commits) at trying to solve this issue, I dropped the starlight background altogether to implement a video background instead - where I struggled to pull in mp4 files into the project. I was hitting roadblock after roadblock.
+The biggest issues I faced were either code/syntax related or the general placement of where code should be, package complications due to deprecation (due to following out of date tutorials on certain aspects of the site), or screen responsiveness problems (which I'm still polishing). Apple's native Safari browser did cause a major hault in progress as it was not rendering the animated starlight background, and only a white background. After several attempts (and commits) at trying to solve this issue, I dropped the starlight background altogether to implement a video background instead - where I struggled to pull in mp4 files into the project. I was hitting roadblock after roadblock.
 
-Thankfully, and all thanks to Chris Meah's guide on Systematic Thinking, I managed to find a fix to the original starlight background through breaking down the problem and abstracting away.
+Thankfully, and all thanks to Chris Meah's guide on Systematic Thinking (see aknowledgements), I managed to find a fix to the original starlight background through breaking down the problem and abstracting away.
 
 ## Lessons Learned ✍🏽
 
 It was always my intention to treat this portfolio site as a project in itself, whereby I've learned a tremendous amount which will directly serve my continued progress in future projects. 
 
 Key takeaways:
-- Whilst I took inspiration on the base layout from a Developer tutorial, I made sure that I completely understood every element of the build process as well as implementing my own ideas and creativity.
+- Whilst I took inspiration on the base layout structure from a Developer's tutorial, I made sure that I completely understood every element of the build process as well as implementing my own ideas and creativity.
 - I originally planned to include a headless CMS, but decided against it as working with raw code only contributes to my learning.
-- Don't get too passionate about something that is not working and taking too much time to solve. Although there's always a solution, is it worth the trade off in time.
+- I've learned to not get too passionate about something that is not working and taking too much time to solve. Although there's always a solution, is it worth the trade off in time.
 - Ensure packages/dependencies build correctly into your project.
 - Be as descriptive as possible in commits so you know exactly where to refer/revert if needed.
 - Not all browsers render code the same, and inspecting responsivness on one browser isn't a universal representation.
@@ -48,7 +48,7 @@ Key takeaways:
 
 - I'll be implementing an email server into the site instead of it currently sending the user to their default email provider.
 - Adding a Certificates page
-- Adding a photo reel (just for fun)
+- Adding a photo reel and a game (just for fun)
 
 ## Acknowledgements 👏🏽
 
