@@ -93,9 +93,10 @@ function About({}: Props) {
             Outside of all this, you&apos;ll often find me in the kitchen,
             settling in to a good book or a good movie, trading, weightlifting,
             playing basketball and tennis or generally dominating the pool
-            table. As for music, I like all genres and even better if it&apos;s live, though I
-            do have a penchant for old-school Hip Hop. Most of all, I LOVE
-            travelling the world.
+            table. As for music, I like all genres and even better if it&apos;s
+            live, though I do have a penchant for old-school Hip Hop.
+            <br />
+            Most of all, I LOVE travelling the world 🌍
             <br />
             <br />
             I&apos;ll wrap it up here and leave you with my website, where
