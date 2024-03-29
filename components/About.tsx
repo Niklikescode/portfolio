@@ -93,7 +93,7 @@ function About({}: Props) {
             Outside of all this, you&apos;ll often find me in the kitchen,
             settling in to a good book or a good movie, trading, weightlifting,
             playing basketball and tennis or generally dominating the pool
-            table. As for music, I like all genres and especially live, though I
+            table. As for music, I like all genres and even better if it&apos;s live, though I
             do have a penchant for old-school Hip Hop. Most of all, I LOVE
             travelling the world.
             <br />
@@ -107,7 +107,7 @@ function About({}: Props) {
             me a shout through the contact page below. I&apos;d love to hear
             from you!
             <br />
-            Feedback will also be greatly appreciated.
+            <small> (Feedback will also be greatly appreciated!)</small>
             <br />
             <br />*
             <em>
