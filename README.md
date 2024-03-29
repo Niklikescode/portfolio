@@ -46,13 +46,14 @@ Key takeaways:
 
 Whilst the following is something I absolutely do not condone - I completed this project with zero help from fellow developer peers, and relied entirely upon documentation and tutorials. I know for a fact that leaning on peers for help would have cut the time to complete the project considerably, however not doing so was a deliberate choice to learn things the hard way.
 
-This is silly. Never do this. Always ask for help. Got it? Good... let's move on.
+This is silly. Never do this. Always ask for help.
 
 ## Future Scope 🤖
 
 - I'll be implementing an email server into the site instead of it currently sending the user to their default email provider.
 - Adding a Certificates page
-- Adding a photo reel and a game (just for fun)
+- Adding a photo reel (just for fun)
+- Adding a game (again, just for fun)
 
 ## Acknowledgements 👏🏽
 
