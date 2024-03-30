@@ -53,7 +53,7 @@ function About({}: Props) {
             <br />
             <br />
             My professional career up to now has predominantly been in the
-            technology space within a sales and managerial/client-facing
+            technology space within a sales and managerial/client-relations
             capacity, where I&apos;ve had the pleasure of working with some
             amazing companies across a diverse collection of industries.
             I&apos;ve been lucky enough to work and learn from some of the best
@@ -64,13 +64,13 @@ function About({}: Props) {
             I&apos;ve always had a passion for creativity from a very young age,
             which stems from a fascination of the way things work. Beyond the
             typical childhood antics, I would often spend my time doodling,
-            painting, playing instruments, building model planes, clay*
-            sculpting, cooking, baking, or just trying to be the next Paul
-            Daniels - I had the set. Ultimately, whatever it was that I was
-            doing, it fundamentaly involved <em>making</em> something. As such
-            I&apos;ve always been drawn to the idea of creating something from
-            nothing, and I&apos;ve always been interested by the idea of
-            building something that can be used by others.
+            painting, playing instruments, building model planes, cooking,
+            baking, or just trying to be the next Paul Daniels - I had the set.
+            Ultimately, whatever it was that I was doing, it fundamentaly
+            involved <em>making</em> something. As such I&apos;ve always been
+            drawn to the idea of creating something from nothing, and I&apos;ve
+            always been interested by the idea of building something that can be
+            used by others.
             <br />
             <br />
             In late 2023 I was extremely fortunate to had been selected from
@@ -85,7 +85,7 @@ function About({}: Props) {
             Since graduating and being released back into the world now armed
             with a whole new skillset, the aim is to build some cool, useful and
             hopefully lucrative stuff whilst also growing my skills with the
-            right people - especially in the AI, Bitcoin or wider crypto space.
+            right people - focusing on the AI, Bitcoin or wider crypto space.
             I&apos;m also working on a few personal projects which I&apos;m
             hoping to share with you soon!
             <br />
@@ -93,8 +93,7 @@ function About({}: Props) {
             Outside of all this, you&apos;ll often find me in the kitchen,
             settling in to a good book or a good movie, trading, weightlifting,
             playing basketball and tennis or generally dominating the pool
-            table. As for music, I like all genres and even better if it&apos;s
-            live, though I do have a penchant for old-school Hip Hop.
+            table. As for music, I like all genres and especially live, though I do have a penchant for old-school Hip Hop.
             <br />
             Most of all, I LOVE travelling the world 🌍
             <br />
@@ -108,12 +107,9 @@ function About({}: Props) {
             me a shout through the contact page below. I&apos;d love to hear
             from you!
             <br />
-            <small> (Feedback will also be greatly appreciated!)</small>
             <br />
-            <br />*
-            <em>
-              <small>Playdough</small>
-            </em>
+            <small> (Feedback will also be greatly appreciated!)</small>
+  
           </p>
         </div>
       </div>
